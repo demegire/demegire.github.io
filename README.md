@@ -1,8 +1,11 @@
-## Welcome to GitHub Pages
+## Anasayfa
 
-You can use the [editor on GitHub](https://github.com/demegire/demegire.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Yapay zeka ile ilgili çalışmalarımı paylaştığım siteme hoş geldiniz. Amacım; ilgilendiğim konular ve çalıştığım projeler üzerine sade, anlaşılabilir ve Türkçe içerik üretmek. Maalesef Türkçe YZ içeriği İngilizce içerik ile kıyaslandığında çok zayıf kalıyor, çünkü zaten az olan içeriğin büyük kısmı konuyu tam bilmeden yapılmış eksik çeviriler. Bu durumda orjinal içeriği okumak daha mantıklı oluyor. Ben ise orjinal içerik üreterek yazılarımla kaliteli azınlığa girmeyi hedefliyorum. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## İletişim
+
+mail: demegire@gmail.com
+twitter: [@demegire1](https://twitter.com/demegire1)
 
 ### Markdown
 
@@ -28,10 +31,4 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/demegire/demegire.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
