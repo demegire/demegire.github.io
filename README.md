@@ -1,10 +1,11 @@
 ## Anasayfa
 
-Yapay zeka ile ilgili çalışmalarımı paylaştığım siteme hoş geldiniz. Amacım; ilgilendiğim konular ve çalıştığım projeler üzerine sade, anlaşılabilir ve Türkçe içerik üretmek. Maalesef Türkçe YZ içeriği İngilizce içerik ile kıyaslandığında çok zayıf kalıyor, çünkü zaten az olan içeriğin büyük kısmı konuyu tam bilmeden yapılmış eksik çeviriler. Bu durumda orjinal içeriği okumak daha mantıklı oluyor. Ben ise orjinal içerik üreterek yazılarımla kaliteli azınlığa girmeyi hedefliyorum. 
+Yapay zeka ile ilgili çalışmalarımı paylaştığım siteme hoş geldiniz. Amacım; ilgilendiğim konular ve çalıştığım projeler üzerine sade, anlaşılabilir ve Türkçe içerik üretmek. Maalesef Türkçe YZ içeriği İngilizce içerik ile kıyaslandığında çok zayıf kalıyor, çünkü zaten az olan içeriğin büyük kısmı konuyu tam bilmeden yapılmış, yazmış olmak için yazılmış, eksik çeviriler. Bu durumda orjinal içeriği okumak daha mantıklı oluyor. Ben ise Türkçe orjinal içerik üreterek kaliteli azınlığa girmeyi hedefliyorum. 
 
 ## İletişim
 
 mail: demegire@gmail.com
+
 twitter: [@demegire1](https://twitter.com/demegire1)
 
 ### Markdown
