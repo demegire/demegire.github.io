@@ -1,5 +1,6 @@
 ---
 permalink: /mun.html
+layout: post
 ---
 
 ## deneme
