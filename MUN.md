@@ -1,6 +1,6 @@
-layout: page
-title: "MUN"
-permalink: /MUN/
+---
+permalink: /mun.html
+---
 
 ## deneme
 
