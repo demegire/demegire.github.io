@@ -8,7 +8,7 @@ Amacım; ilgilendiğim konular ve çalıştığım projeler üzerine detaylı, a
 
 ## Yazılarım
 
-Transformer'ı Anlamak - Bölüm 1
+[Transformer'ı Anlamak - Bölüm 1](https://medium.com/@demegire/transformer%C4%B1-anlamak-b%C3%B6l%C3%BCm-1-309c401cfdfb)
 
 Bu yazıda siz farkında olmasanız da hayatınızda büyük rol oynayan bir YZ teknolojisi olan Transformer'ı detaylı bir şekilde inceliyoruz. Bu bölümde Transformer'ın arkasındaki motivasyonu, encoder-decoder mimarisini ve modelin kalbi olan multiheaded scaled dot product attention'ı öğreneceksiniz.
 
