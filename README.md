@@ -2,9 +2,7 @@
 
 Yapay zeka ile ilgili çalışmalarımı paylaştığım siteme hoş geldiniz. 
 
-Özellikle derin öğrenme ve NLP ile ilgileniyorum.
-
-Amacım; ilgilendiğim konular ve çalıştığım projeler üzerine detaylı, anlaşılabilir ve Türkçe içerik üretmek. Maalesef Türkçe YZ içeriği İngilizce içerik ile kıyaslandığında çok zayıf kalıyor, çünkü zaten az olan içeriğin büyük kısmı konuyu tam bilmeden yapılmış, yazmış olmak için yazılmış, eksik çeviriler. Bu durumda orjinal içeriği okumak daha mantıklı oluyor. Ben bu açığımızı kapamayı hedefliyorum.
+Özellikle derin öğrenme ve NLP ile ilgileniyorum. Şu an [Global AI Hub](https://globalaihub.com/), [Summarify](https://summarify.io/) ve [ODTÜ Yapay Zeka Topluluğu](https://odtuyzt.github.io/#)'da çalışmalar yapıyorum.
 
 ## Yazılarım
 
@@ -14,13 +12,8 @@ Bu yazıda siz farkında olmasanız da hayatınızda büyük rol oynayan bir YZ 
 
 Transformer'ı Anlamak - Bölüm 2
 
-Bu bölümde ise positional encoding, residual connection, layer norm gibi Transformer'ın yardımcı elemanlarını işleyeceğiz. 23 Ekim civarı yazıyı yayınlamış olmayı umuyorum.
+Bu bölümde ise positional encoding, residual connection, layer norm gibi Transformer'ın yardımcı elemanlarını işleyeceğiz. 23 Ekim civarı yazıyı yayınlamış olmayı umuyorum. (9 ay gelen sonra edit: hangi yıl olduğunu söylemedim... 23 Ekim 2021 için beklemede kalın)
 
-## Türkçe GPT2
-
-"Yaratıcılarının kodunu yayınlamak için çok tehlikeli bulduğu" GPT2'yi duymuşsunuzdur. Bunu söyleyen Google veya Microsoft olsa YZ topluluğu bunu anlayışla karşılayabilirdi ancak şeffaflık sözü veren OpenAI olunca bu yaratıcılar bir hayli linç edildi ve sonunda modeli yayınladılar.
-
-Ben de bu modeli alıp Türkçe öğrettim. Çalışmamı yakında yayınlayacağım.
 
 ## İletişim
 
