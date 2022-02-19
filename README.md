@@ -4,7 +4,7 @@ Welcome!
 
 I like deep learning! I am an industrial engineering junior at [METU](https://www.metu.edu.tr/) and currently work at [Blush](https://blush.design/) to aid illustration creation with AI. I also cofounded [METU Artificial Intelligence Society](https://odtuyzt.github.io/#) where we hold seminars, reproduce papers and learn.
 
-I used to be a part of [Global AI Hub](https://globalaihub.com/), [Summarify](https://summarify.io/) and [CodeFest](https://www.codefesttr.org/).
+I used to be a part of [Global AI Hub](https://globalaihub.com/), [Summarify](https://summarify.io/), [KaVe](https://uzay00.github.io/kahve/) and [CodeFest](https://www.codefesttr.org/).
 
 ## Stuff
 
