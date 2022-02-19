@@ -2,7 +2,9 @@
 
 Welcome!
 
-I like deep learning. I currently work at [Global AI Hub](https://globalaihub.com/), [Summarify](https://summarify.io/) and volunteer at [ODTÜ Artificial Intelligence Society](https://odtuyzt.github.io/#).
+I like deep learning! I am an industrial engineering junior at [METU](https://www.metu.edu.tr/) and currently work at [Blush](https://blush.design/) to aid illustration creation with AI. I also cofounded [METU Artificial Intelligence Society](https://odtuyzt.github.io/#) where we hold seminars, reproduce papers and learn.
+
+I used to be a part of [Global AI Hub](https://globalaihub.com/), [Summarify](https://summarify.io/) and [CodeFest](https://www.codefesttr.org/).
 
 ## Stuff
 
@@ -15,4 +17,6 @@ I like deep learning. I currently work at [Global AI Hub](https://globalaihub.co
 mail: demegire@gmail.com
 
 twitter: [@demegire1](https://twitter.com/demegire1)
+
+linkedin: [Ege Demir](https://www.linkedin.com/in/ege-demir-312081195/)
 
