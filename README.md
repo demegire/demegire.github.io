@@ -2,9 +2,9 @@
 
 Welcome!
 
-I like deep learning! I am an industrial engineering junior at [METU](https://www.metu.edu.tr/) and currently work at [Blush](https://blush.design/) to aid illustration creation with AI. I also cofounded [METU Artificial Intelligence Society](https://odtuyzt.github.io/#) where we hold seminars, reproduce papers and learn.
+I recently graduated from [METU](https://www.metu.edu.tr/) as an industrial engineer and I am looking for work as a machine learning engineer. I have had over 3 years of part time MLE experience at amazing places that you can find in my [CV](). I also cofounded [METU Artificial Intelligence Society](https://odtuyzt.github.io/#) where we hold seminars, reproduce papers and learn.
 
-I used to be a part of [Global AI Hub](https://globalaihub.com/), [Summarify](https://summarify.io/), [KaVe](https://uzay00.github.io/kahve/) and [CodeFest](https://www.codefesttr.org/).
+I used to be a part of [Bueno](https://bueno.art/), [Global AI Hub](https://globalaihub.com/), [Summarify](https://summarify.io/), [KaVe](https://uzay00.github.io/kahve/) and [CodeFest](https://www.codefesttr.org/).
 
 ## Stuff
 
@@ -20,3 +20,4 @@ twitter: [@demegire1](https://twitter.com/demegire1)
 
 linkedin: [Ege Demir](https://www.linkedin.com/in/ege-demir-312081195/)
 
+Last updated: 1/6/2023
