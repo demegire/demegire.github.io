@@ -1,5 +1,5 @@
 layout: page
-title: "PAGE-TITLE"
-permalink: /URL-PATH
+title: "Wiki Journey"
+permalink: /wikijourney
 
-info about wiki-journey
+info about Wiki Journey
