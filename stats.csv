@@ -1,0 +1,14 @@
+﻿Name, Cost Per Image (1024x1024) (USD),Cost Per Megapixel (USD),p90 Latency (s), Artificial Analysis ELO,Link
+bria/text-to-image/3.2,0.04,-,10.68,892,https://fal.ai/models/bria/text-to-image/3.2
+chatgpt,-,-,116.02,1164,https://chatgpt.com/
+fal-ai/bytedance/seedream/v4/text-to-image,0.03,-,21.26,1210,https://fal.ai/models/fal-ai/bytedance/seedream/v4/text-to-image
+fal-ai/flux/srpo,0.025,0.025,1.42,-,https://fal.ai/models/fal-ai/flux/srpo/playground
+fal-ai/flux-pro/v1.1-ultra,0.06,-,10.60,1104,https://fal.ai/models/fal-ai/flux-pro/v1.1-ultra
+fal-ai/hunyuan-image/v3/text-to-image,0.1,0.1,13.63,-,https://fal.ai/models/fal-ai/hunyuan-image/v3/text-to-image
+fal-ai/imagen4/preview,0.04,-,9.53,1162,https://fal.ai/models/fal-ai/imagen4/preview
+fal-ai/nano-banana,0.039,-,13.50,1168,https://fal.ai/models/fal-ai/nano-banana
+fal-ai/recraft/v3/text-to-image,0.04,-,7.68,1114,https://fal.ai/models/fal-ai/recraft/v3/text-to-image
+fal-ai/wan/v2.2-a14b/text-to-image,0.025,-,5.44,-,https://fal.ai/models/fal-ai/wan/v2.2-a14b/text-to-image
+fal-ai/wan-25-preview/text-to-image,0.05,-,20.17,-,https://fal.ai/models/fal-ai/wan-25-preview/text-to-image
+grok,-,-,14.62,930,https://x.com/i/grok
+local-wan2.2,0.038,0.038,73.00,-,https://www.dropbox.com/scl/fi/pfpzff7eyjcql0uetj1at/WAN2.2_recommended_default_text2image_inference_workflow_by_AI_Characters-v3.json?rlkey=nyu2rfsxxszf38phflacgiseg&e=1&st=xa2zwgb4&dl=0

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>T2I Vibe Eval | Vibe Evals</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/theme.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__inner">
+                <nav class="nav-tabs nav-tabs--primary" aria-label="Explore views">
+          <a class="nav-tab" href="model-explorer.html">Explore Models</a>
+          <a class="nav-tab nav-tab--active" href="#" aria-current="page">Explore Vibe Evals</a>
+        </nav>
+        <nav class="nav-tabs nav-tabs--secondary" aria-label="Explore datasets">
+          <a class="nav-tab nav-tab--active" href="#" aria-current="page">Text2Image</a>
+          <span class="nav-tab" aria-disabled="true">Coming soon</span>
+        </nav>
+        <h1 class="hero__title">Text-to-Image Vibe Eval</h1>
+        <p class="hero__subtitle">
+          Review how each prompt contributes to the T2I Vibe Eval and open any model below to inspect generations and comments.
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="benchmark-card" aria-labelledby="benchmark-heading">
+        <div class="benchmark-card__header">
+          <div>
+            <h2 class="section-title" id="benchmark-heading">Benchmark Overview</h2>
+            <p class="section-subtitle" id="benchmark-summary">
+              Text2Image Vibe Eval sums 0-2 vibe points per prompt across 16 prompts.
+            </p>
+          </div>
+          <button class="benchmark-toggle" type="button" id="prompt-toggle" aria-expanded="false" aria-controls="prompt-list">
+            Expand details
+          </button>
+        </div>
+        <div id="prompt-list" class="prompt-list" hidden aria-hidden="true"></div>
+      </section>
+
+      <section aria-labelledby="leaderboard-heading">
+        <h2 class="section-title" id="leaderboard-heading">Leaderboard</h2>
+        <p class="section-subtitle">
+          Hover or tap any generation to reveal score and comments.
+        </p>
+        <div class="model-accordion" id="model-accordion"></div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        Got any questions? Ask at <a href="mailto:demegire@gmail.com">demegire@gmail.com</a> or
+        <a href="https://x.com/demegire1" target="_blank" rel="noopener">x.com/demegire1</a>.
+        For more of my work visit <a href="https://demegire.github.io" target="_blank" rel="noopener">demegire.github.io</a>.
+      </div>
+    </footer>
+    <script type="module" src="assets/js/detail.js"></script>
+  </body>
+</html>
+

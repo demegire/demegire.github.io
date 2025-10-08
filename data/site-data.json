@@ -1,0 +1,1811 @@
+{
+  "generatedAt": "2025-10-08T21:52:45.928521Z",
+  "models": [
+    {
+      "name": "bria/text-to-image/3.2",
+      "slug": "bria_text-to-image_3.2",
+      "stats": {
+        "name": "bria/text-to-image/3.2",
+        "slug": "bria_text-to-image_3.2",
+        "costPerImage": 0.04,
+        "costPerMegapixel": null,
+        "p90Latency": 10.68,
+        "elo": 892,
+        "link": "https://fal.ai/models/bria/text-to-image/3.2"
+      },
+      "t2iVibeEval": {
+        "total": 6.0,
+        "average": 0.375,
+        "count": 16
+      },
+      "images": [
+        {
+          "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+          "path": "bria_text-to-image_3.2/001d63f5-dcb6-46ec-bf0f-390c70907e0f.jpeg",
+          "comment": "It really had the urge to add an old white man when it shouldn't have, people don't really look realistic as well",
+          "score": 0.0,
+          "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly."
+        },
+        {
+          "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+          "path": "bria_text-to-image_3.2/1aeda8a1-87bf-45d3-96c8-ab878760119f.jpeg",
+          "comment": "Way too cartoonish",
+          "score": 0.0,
+          "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest."
+        },
+        {
+          "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+          "path": "bria_text-to-image_3.2/1c326f49-5ef9-4dae-827f-347f1fe52dbc.jpeg",
+          "comment": "Way too cartoonish and the emotions don't match the descriptions",
+          "score": 0.0,
+          "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same."
+        },
+        {
+          "uid": "351d414f-026e-4a55-a991-101896eacc72",
+          "path": "bria_text-to-image_3.2/351d414f-026e-4a55-a991-101896eacc72.jpeg",
+          "comment": "Not a triptych",
+          "score": 0.0,
+          "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city."
+        },
+        {
+          "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+          "path": "bria_text-to-image_3.2/3a4324bf-e54a-4a5f-94e5-77c6adb4aff5.jpeg",
+          "comment": "Neither the Starbucks logo nor the reflection is good",
+          "score": 0.0,
+          "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping."
+        },
+        {
+          "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+          "path": "bria_text-to-image_3.2/5417bcb1-780d-4c25-9400-05fd961ddbe5.jpeg",
+          "comment": "It's just a bad drawing of the Eiffel Tower",
+          "score": 0.0,
+          "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking."
+        },
+        {
+          "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+          "path": "bria_text-to-image_3.2/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.jpeg",
+          "comment": "Not Michael Jackson, not a print, not the right pose",
+          "score": 0.0,
+          "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere."
+        },
+        {
+          "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+          "path": "bria_text-to-image_3.2/78bad47c-3100-42e8-8f7a-8af8283f175f.jpeg",
+          "comment": "The rock formations are a little too castle like, but it's realistic",
+          "score": 2.0,
+          "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light."
+        },
+        {
+          "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+          "path": "bria_text-to-image_3.2/80a63809-86f6-449f-844d-d6e5df161211.jpeg",
+          "comment": "The man is supposed to be on the sidewalk",
+          "score": 1.0,
+          "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like."
+        },
+        {
+          "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+          "path": "bria_text-to-image_3.2/88cfbbde-3f91-41e2-90a1-017b9ecee0d9.jpeg",
+          "comment": "Almost there but the tank barrels in the back look the wrong way",
+          "score": 1.0,
+          "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward."
+        },
+        {
+          "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+          "path": "bria_text-to-image_3.2/aa04e6ed-a43a-479c-a2a3-74ca255004fa.jpeg",
+          "comment": "Not a Corolla and the road is inconsistent",
+          "score": 0.0,
+          "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk."
+        },
+        {
+          "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+          "path": "bria_text-to-image_3.2/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.jpeg",
+          "comment": "Madam, you dropped your foot",
+          "score": 0.0,
+          "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile."
+        },
+        {
+          "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+          "path": "bria_text-to-image_3.2/b523278b-4818-497f-bc86-dab4d96c560b.jpeg",
+          "comment": "Not realistic",
+          "score": 1.0,
+          "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing."
+        },
+        {
+          "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+          "path": "bria_text-to-image_3.2/c7a774a1-5500-488b-a1ba-8a22063b245f.jpeg",
+          "comment": "After looking at it for more than 1 second, you notice lot's off odd things like the phone screen and blended appendages",
+          "score": 1.0,
+          "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen."
+        },
+        {
+          "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+          "path": "bria_text-to-image_3.2/e43b3a4e-8d93-4984-946d-484f9ffb7ad9.jpeg",
+          "comment": "The lighting from the window, the reflections on the glass table and the Cola sign have gone wrong",
+          "score": 0.0,
+          "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces."
+        },
+        {
+          "uid": "ec96014f-2261-4484-827d-22d16a349008",
+          "path": "bria_text-to-image_3.2/ec96014f-2261-4484-827d-22d16a349008.jpeg",
+          "comment": "Didn't even try",
+          "score": 0.0,
+          "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style"
+        }
+      ]
+    },
+    {
+      "name": "chatgpt",
+      "slug": "chatgpt",
+      "stats": {
+        "name": "chatgpt",
+        "slug": "chatgpt",
+        "costPerImage": null,
+        "costPerMegapixel": null,
+        "p90Latency": 116.02,
+        "elo": 1164,
+        "link": "https://chatgpt.com/"
+      },
+      "t2iVibeEval": {
+        "total": 24.0,
+        "average": 1.5,
+        "count": 16
+      },
+      "images": [
+        {
+          "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+          "path": "chatgpt/001d63f5-dcb6-46ec-bf0f-390c70907e0f.png",
+          "comment": "Nailed it",
+          "score": 2.0,
+          "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly."
+        },
+        {
+          "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+          "path": "chatgpt/1aeda8a1-87bf-45d3-96c8-ab878760119f.png",
+          "comment": "Too cartoonish",
+          "score": 1.0,
+          "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest."
+        },
+        {
+          "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+          "path": "chatgpt/1c326f49-5ef9-4dae-827f-347f1fe52dbc.png",
+          "comment": "I should make a YouTube thumbnail generator using this",
+          "score": 2.0,
+          "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same."
+        },
+        {
+          "uid": "351d414f-026e-4a55-a991-101896eacc72",
+          "path": "chatgpt/351d414f-026e-4a55-a991-101896eacc72.png",
+          "comment": "There are slight inconsistencies",
+          "score": 1.0,
+          "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city."
+        },
+        {
+          "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+          "path": "chatgpt/3a4324bf-e54a-4a5f-94e5-77c6adb4aff5.png",
+          "comment": "Pretty good",
+          "score": 2.0,
+          "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping."
+        },
+        {
+          "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+          "path": "chatgpt/5417bcb1-780d-4c25-9400-05fd961ddbe5.png",
+          "comment": "Very cool",
+          "score": 2.0,
+          "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking."
+        },
+        {
+          "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+          "path": "chatgpt/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.png",
+          "comment": "Nailed it",
+          "score": 2.0,
+          "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere."
+        },
+        {
+          "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+          "path": "chatgpt/78bad47c-3100-42e8-8f7a-8af8283f175f.png",
+          "comment": "The rock landscape and the composition of the balloons aren't realistic",
+          "score": 1.0,
+          "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light."
+        },
+        {
+          "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+          "path": "chatgpt/80a63809-86f6-449f-844d-d6e5df161211.png",
+          "comment": "As good as it gets",
+          "score": 2.0,
+          "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like."
+        },
+        {
+          "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+          "path": "chatgpt/88cfbbde-3f91-41e2-90a1-017b9ecee0d9.png",
+          "comment": "Yep",
+          "score": 2.0,
+          "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward."
+        },
+        {
+          "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+          "path": "chatgpt/aa04e6ed-a43a-479c-a2a3-74ca255004fa.png",
+          "comment": "Nailed it",
+          "score": 2.0,
+          "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk."
+        },
+        {
+          "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+          "path": "chatgpt/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.jpeg",
+          "comment": "Complicated yoga poses violate content policy",
+          "score": 0.0,
+          "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile."
+        },
+        {
+          "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+          "path": "chatgpt/b523278b-4818-497f-bc86-dab4d96c560b.png",
+          "comment": "So close but 'OF THE CITY' is a giveaway",
+          "score": 1.0,
+          "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing."
+        },
+        {
+          "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+          "path": "chatgpt/c7a774a1-5500-488b-a1ba-8a22063b245f.png",
+          "comment": "There are too many head on collisions",
+          "score": 1.0,
+          "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen."
+        },
+        {
+          "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+          "path": "chatgpt/e43b3a4e-8d93-4984-946d-484f9ffb7ad9.png",
+          "comment": "Pretty good",
+          "score": 2.0,
+          "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces."
+        },
+        {
+          "uid": "ec96014f-2261-4484-827d-22d16a349008",
+          "path": "chatgpt/ec96014f-2261-4484-827d-22d16a349008.png",
+          "comment": "No mistakes but the composition and the uncalled tildas are awkward",
+          "score": 1.0,
+          "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style"
+        }
+      ]
+    },
+    {
+      "name": "fal-ai/bytedance/seedream/v4/text-to-image",
+      "slug": "fal-ai_bytedance_seedream_v4_text-to-image",
+      "stats": {
+        "name": "fal-ai/bytedance/seedream/v4/text-to-image",
+        "slug": "fal-ai_bytedance_seedream_v4_text-to-image",
+        "costPerImage": 0.03,
+        "costPerMegapixel": null,
+        "p90Latency": 21.26,
+        "elo": 1210,
+        "link": "https://fal.ai/models/fal-ai/bytedance/seedream/v4/text-to-image"
+      },
+      "t2iVibeEval": {
+        "total": 24.0,
+        "average": 1.5,
+        "count": 16
+      },
+      "images": [
+        {
+          "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/001d63f5-dcb6-46ec-bf0f-390c70907e0f.jpeg",
+          "comment": "Almost perfect but the freckle pattern is a giveaway",
+          "score": 1.0,
+          "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly."
+        },
+        {
+          "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/1aeda8a1-87bf-45d3-96c8-ab878760119f.jpeg",
+          "comment": "Cartoonish",
+          "score": 1.0,
+          "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest."
+        },
+        {
+          "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/1c326f49-5ef9-4dae-827f-347f1fe52dbc.jpeg",
+          "comment": "The 4th portrait has drooping eyeliner from crying",
+          "score": 1.0,
+          "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same."
+        },
+        {
+          "uid": "351d414f-026e-4a55-a991-101896eacc72",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/351d414f-026e-4a55-a991-101896eacc72.jpeg",
+          "comment": "The second and the third views aren't realistic as we see the same shadows at both times and there isn't such a view at the first place",
+          "score": 1.0,
+          "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city."
+        },
+        {
+          "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/3a4324bf-e54a-4a5f-94e5-77c6adb4aff5.jpeg",
+          "comment": "Pretty good",
+          "score": 2.0,
+          "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping."
+        },
+        {
+          "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/5417bcb1-780d-4c25-9400-05fd961ddbe5.jpeg",
+          "comment": "Very cool",
+          "score": 2.0,
+          "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking."
+        },
+        {
+          "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.jpeg",
+          "comment": "Michael Jackson has become an angel \ud83d\udc94",
+          "score": 1.0,
+          "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere."
+        },
+        {
+          "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/78bad47c-3100-42e8-8f7a-8af8283f175f.jpeg",
+          "comment": "Awesome",
+          "score": 2.0,
+          "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light."
+        },
+        {
+          "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/80a63809-86f6-449f-844d-d6e5df161211.jpeg",
+          "comment": "Yep",
+          "score": 2.0,
+          "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like."
+        },
+        {
+          "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/88cfbbde-3f91-41e2-90a1-017b9ecee0d9.jpeg",
+          "comment": "Colored tanks in a BW photo is an interesting touch",
+          "score": 2.0,
+          "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward."
+        },
+        {
+          "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/aa04e6ed-a43a-479c-a2a3-74ca255004fa.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk."
+        },
+        {
+          "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.jpeg",
+          "comment": "Left hand is supposed to be holding the left foot on the ground",
+          "score": 1.0,
+          "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile."
+        },
+        {
+          "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/b523278b-4818-497f-bc86-dab4d96c560b.jpeg",
+          "comment": "Close but there are unintelligible letters on one of the posters",
+          "score": 1.0,
+          "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing."
+        },
+        {
+          "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/c7a774a1-5500-488b-a1ba-8a22063b245f.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen."
+        },
+        {
+          "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/e43b3a4e-8d93-4984-946d-484f9ffb7ad9.jpeg",
+          "comment": "Love the reflections",
+          "score": 2.0,
+          "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces."
+        },
+        {
+          "uid": "ec96014f-2261-4484-827d-22d16a349008",
+          "path": "fal-ai_bytedance_seedream_v4_text-to-image/ec96014f-2261-4484-827d-22d16a349008.jpeg",
+          "comment": "Good composition, bad words",
+          "score": 1.0,
+          "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style"
+        }
+      ]
+    },
+    {
+      "name": "fal-ai/flux-pro/v1.1-ultra",
+      "slug": "fal-ai_flux-pro_v1.1-ultra",
+      "stats": {
+        "name": "fal-ai/flux-pro/v1.1-ultra",
+        "slug": "fal-ai_flux-pro_v1.1-ultra",
+        "costPerImage": 0.06,
+        "costPerMegapixel": null,
+        "p90Latency": 10.6,
+        "elo": 1104,
+        "link": "https://fal.ai/models/fal-ai/flux-pro/v1.1-ultra"
+      },
+      "t2iVibeEval": {
+        "total": 18.0,
+        "average": 1.125,
+        "count": 16
+      },
+      "images": [
+        {
+          "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+          "path": "fal-ai_flux-pro_v1.1-ultra/001d63f5-dcb6-46ec-bf0f-390c70907e0f.jpeg",
+          "comment": "Good photorealism but doesn't match the prompt",
+          "score": 1.0,
+          "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly."
+        },
+        {
+          "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+          "path": "fal-ai_flux-pro_v1.1-ultra/1aeda8a1-87bf-45d3-96c8-ab878760119f.jpeg",
+          "comment": "Too cartoonish",
+          "score": 1.0,
+          "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest."
+        },
+        {
+          "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+          "path": "fal-ai_flux-pro_v1.1-ultra/1c326f49-5ef9-4dae-827f-347f1fe52dbc.jpeg",
+          "comment": "The third expression does not convey surprise",
+          "score": 1.0,
+          "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same."
+        },
+        {
+          "uid": "351d414f-026e-4a55-a991-101896eacc72",
+          "path": "fal-ai_flux-pro_v1.1-ultra/351d414f-026e-4a55-a991-101896eacc72.jpeg",
+          "comment": "Alright",
+          "score": 2.0,
+          "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city."
+        },
+        {
+          "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+          "path": "fal-ai_flux-pro_v1.1-ultra/3a4324bf-e54a-4a5f-94e5-77c6adb4aff5.jpeg",
+          "comment": "No reflection, it's under the water",
+          "score": 1.0,
+          "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping."
+        },
+        {
+          "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+          "path": "fal-ai_flux-pro_v1.1-ultra/5417bcb1-780d-4c25-9400-05fd961ddbe5.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking."
+        },
+        {
+          "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+          "path": "fal-ai_flux-pro_v1.1-ultra/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.jpeg",
+          "comment": "It's good but only 1 hand should have a glove",
+          "score": 1.0,
+          "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere."
+        },
+        {
+          "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+          "path": "fal-ai_flux-pro_v1.1-ultra/78bad47c-3100-42e8-8f7a-8af8283f175f.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light."
+        },
+        {
+          "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+          "path": "fal-ai_flux-pro_v1.1-ultra/80a63809-86f6-449f-844d-d6e5df161211.jpeg",
+          "comment": "The hole... it's a bit too hole-y",
+          "score": 1.0,
+          "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like."
+        },
+        {
+          "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+          "path": "fal-ai_flux-pro_v1.1-ultra/88cfbbde-3f91-41e2-90a1-017b9ecee0d9.jpeg",
+          "comment": "It works",
+          "score": 2.0,
+          "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward."
+        },
+        {
+          "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+          "path": "fal-ai_flux-pro_v1.1-ultra/aa04e6ed-a43a-479c-a2a3-74ca255004fa.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk."
+        },
+        {
+          "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+          "path": "fal-ai_flux-pro_v1.1-ultra/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.jpeg",
+          "comment": "Human spaghetti",
+          "score": 0.0,
+          "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile."
+        },
+        {
+          "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+          "path": "fal-ai_flux-pro_v1.1-ultra/b523278b-4818-497f-bc86-dab4d96c560b.jpeg",
+          "comment": "Close but there are unintelligible letters",
+          "score": 1.0,
+          "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing."
+        },
+        {
+          "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+          "path": "fal-ai_flux-pro_v1.1-ultra/c7a774a1-5500-488b-a1ba-8a22063b245f.jpeg",
+          "comment": "Also human spaghetti",
+          "score": 0.0,
+          "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen."
+        },
+        {
+          "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+          "path": "fal-ai_flux-pro_v1.1-ultra/e43b3a4e-8d93-4984-946d-484f9ffb7ad9.jpeg",
+          "comment": "Wrong light effects all around",
+          "score": 0.0,
+          "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces."
+        },
+        {
+          "uid": "ec96014f-2261-4484-827d-22d16a349008",
+          "path": "fal-ai_flux-pro_v1.1-ultra/ec96014f-2261-4484-827d-22d16a349008.jpeg",
+          "comment": "Good composition, bad words",
+          "score": 1.0,
+          "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style"
+        }
+      ]
+    },
+    {
+      "name": "fal-ai/flux/srpo",
+      "slug": "fal-ai_flux_srpo",
+      "stats": {
+        "name": "fal-ai/flux/srpo",
+        "slug": "fal-ai_flux_srpo",
+        "costPerImage": 0.025,
+        "costPerMegapixel": 0.025,
+        "p90Latency": 1.42,
+        "elo": null,
+        "link": "https://fal.ai/models/fal-ai/flux/srpo/playground"
+      },
+      "t2iVibeEval": {
+        "total": 20.0,
+        "average": 1.25,
+        "count": 16
+      },
+      "images": [
+        {
+          "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+          "path": "fal-ai_flux_srpo/001d63f5-dcb6-46ec-bf0f-390c70907e0f.jpeg",
+          "comment": "Good photorealism but doesn't match the prompt",
+          "score": 1.0,
+          "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly."
+        },
+        {
+          "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+          "path": "fal-ai_flux_srpo/1aeda8a1-87bf-45d3-96c8-ab878760119f.jpeg",
+          "comment": "It's the best among the models I tested but Adam's shorts are a dealbreaker",
+          "score": 1.0,
+          "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest."
+        },
+        {
+          "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+          "path": "fal-ai_flux_srpo/1c326f49-5ef9-4dae-827f-347f1fe52dbc.jpeg",
+          "comment": "The last expression does not convey sadness and the heads are out of center",
+          "score": 1.0,
+          "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same."
+        },
+        {
+          "uid": "351d414f-026e-4a55-a991-101896eacc72",
+          "path": "fal-ai_flux_srpo/351d414f-026e-4a55-a991-101896eacc72.jpeg",
+          "comment": "Alright",
+          "score": 2.0,
+          "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city."
+        },
+        {
+          "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+          "path": "fal-ai_flux_srpo/3a4324bf-e54a-4a5f-94e5-77c6adb4aff5.jpeg",
+          "comment": "No reflection",
+          "score": 1.0,
+          "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping."
+        },
+        {
+          "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+          "path": "fal-ai_flux_srpo/5417bcb1-780d-4c25-9400-05fd961ddbe5.jpeg",
+          "comment": "It's kinda blurry",
+          "score": 1.0,
+          "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking."
+        },
+        {
+          "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+          "path": "fal-ai_flux_srpo/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.jpeg",
+          "comment": "It's good but only 1 hand should have a glove",
+          "score": 1.0,
+          "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere."
+        },
+        {
+          "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+          "path": "fal-ai_flux_srpo/78bad47c-3100-42e8-8f7a-8af8283f175f.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light."
+        },
+        {
+          "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+          "path": "fal-ai_flux_srpo/80a63809-86f6-449f-844d-d6e5df161211.jpeg",
+          "comment": "The hole... it's a bit too hole-y",
+          "score": 1.0,
+          "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like."
+        },
+        {
+          "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+          "path": "fal-ai_flux_srpo/88cfbbde-3f91-41e2-90a1-017b9ecee0d9.jpeg",
+          "comment": "It works",
+          "score": 2.0,
+          "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward."
+        },
+        {
+          "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+          "path": "fal-ai_flux_srpo/aa04e6ed-a43a-479c-a2a3-74ca255004fa.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk."
+        },
+        {
+          "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+          "path": "fal-ai_flux_srpo/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.jpeg",
+          "comment": "The pose is wrong and it's very blurry",
+          "score": 0.0,
+          "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile."
+        },
+        {
+          "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+          "path": "fal-ai_flux_srpo/b523278b-4818-497f-bc86-dab4d96c560b.jpeg",
+          "comment": "Close but there are unintelligible letters and the top floor is not accessible",
+          "score": 1.0,
+          "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing."
+        },
+        {
+          "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+          "path": "fal-ai_flux_srpo/c7a774a1-5500-488b-a1ba-8a22063b245f.jpeg",
+          "comment": "Almost there but a prominent student has two weird masks on",
+          "score": 1.0,
+          "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen."
+        },
+        {
+          "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+          "path": "fal-ai_flux_srpo/e43b3a4e-8d93-4984-946d-484f9ffb7ad9.jpeg",
+          "comment": "Artistic",
+          "score": 2.0,
+          "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces."
+        },
+        {
+          "uid": "ec96014f-2261-4484-827d-22d16a349008",
+          "path": "fal-ai_flux_srpo/ec96014f-2261-4484-827d-22d16a349008.jpeg",
+          "comment": "Good composition, bad words",
+          "score": 1.0,
+          "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style"
+        }
+      ]
+    },
+    {
+      "name": "fal-ai/hunyuan-image/v3/text-to-image",
+      "slug": "fal-ai_hunyuan-image_v3_text-to-image",
+      "stats": {
+        "name": "fal-ai/hunyuan-image/v3/text-to-image",
+        "slug": "fal-ai_hunyuan-image_v3_text-to-image",
+        "costPerImage": 0.1,
+        "costPerMegapixel": 0.1,
+        "p90Latency": 13.63,
+        "elo": null,
+        "link": "https://fal.ai/models/fal-ai/hunyuan-image/v3/text-to-image"
+      },
+      "t2iVibeEval": {
+        "total": 21.0,
+        "average": 1.312,
+        "count": 16
+      },
+      "images": [
+        {
+          "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/001d63f5-dcb6-46ec-bf0f-390c70907e0f.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly."
+        },
+        {
+          "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/1aeda8a1-87bf-45d3-96c8-ab878760119f.jpeg",
+          "comment": "Too cartoonish",
+          "score": 1.0,
+          "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest."
+        },
+        {
+          "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/1c326f49-5ef9-4dae-827f-347f1fe52dbc.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same."
+        },
+        {
+          "uid": "351d414f-026e-4a55-a991-101896eacc72",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/351d414f-026e-4a55-a991-101896eacc72.jpeg",
+          "comment": "Not a triptych",
+          "score": 1.0,
+          "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city."
+        },
+        {
+          "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/3a4324bf-e54a-4a5f-94e5-77c6adb4aff5.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping."
+        },
+        {
+          "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/5417bcb1-780d-4c25-9400-05fd961ddbe5.jpeg",
+          "comment": "I didn't ask for the spirit of the tower leaving",
+          "score": 0.0,
+          "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking."
+        },
+        {
+          "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.jpeg",
+          "comment": "Too magical",
+          "score": 1.0,
+          "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere."
+        },
+        {
+          "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/78bad47c-3100-42e8-8f7a-8af8283f175f.jpeg",
+          "comment": "Composition isn't realistic",
+          "score": 1.0,
+          "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light."
+        },
+        {
+          "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/80a63809-86f6-449f-844d-d6e5df161211.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like."
+        },
+        {
+          "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/88cfbbde-3f91-41e2-90a1-017b9ecee0d9.jpeg",
+          "comment": "It works",
+          "score": 2.0,
+          "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward."
+        },
+        {
+          "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/aa04e6ed-a43a-479c-a2a3-74ca255004fa.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk."
+        },
+        {
+          "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.jpeg",
+          "comment": "Wrong pose",
+          "score": 1.0,
+          "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile."
+        },
+        {
+          "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/b523278b-4818-497f-bc86-dab4d96c560b.jpeg",
+          "comment": "Close but there are unintelligible letters",
+          "score": 1.0,
+          "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing."
+        },
+        {
+          "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/c7a774a1-5500-488b-a1ba-8a22063b245f.jpeg",
+          "comment": "There are some weird faces at the back",
+          "score": 1.0,
+          "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen."
+        },
+        {
+          "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/e43b3a4e-8d93-4984-946d-484f9ffb7ad9.jpeg",
+          "comment": "Almost there but the person has a projector aimed at their cheek",
+          "score": 1.0,
+          "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces."
+        },
+        {
+          "uid": "ec96014f-2261-4484-827d-22d16a349008",
+          "path": "fal-ai_hunyuan-image_v3_text-to-image/ec96014f-2261-4484-827d-22d16a349008.jpeg",
+          "comment": "Good composition, bad words",
+          "score": 1.0,
+          "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style"
+        }
+      ]
+    },
+    {
+      "name": "fal-ai/imagen4/preview",
+      "slug": "fal-ai_imagen4_preview",
+      "stats": {
+        "name": "fal-ai/imagen4/preview",
+        "slug": "fal-ai_imagen4_preview",
+        "costPerImage": 0.04,
+        "costPerMegapixel": null,
+        "p90Latency": 9.53,
+        "elo": 1162,
+        "link": "https://fal.ai/models/fal-ai/imagen4/preview"
+      },
+      "t2iVibeEval": {
+        "total": 24.0,
+        "average": 1.5,
+        "count": 16
+      },
+      "images": [
+        {
+          "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+          "path": "fal-ai_imagen4_preview/001d63f5-dcb6-46ec-bf0f-390c70907e0f.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly."
+        },
+        {
+          "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+          "path": "fal-ai_imagen4_preview/1aeda8a1-87bf-45d3-96c8-ab878760119f.jpeg",
+          "comment": "Adam and Eve violate our content policy",
+          "score": 0.0,
+          "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest."
+        },
+        {
+          "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+          "path": "fal-ai_imagen4_preview/1c326f49-5ef9-4dae-827f-347f1fe52dbc.jpeg",
+          "comment": "Not realistic",
+          "score": 1.0,
+          "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same."
+        },
+        {
+          "uid": "351d414f-026e-4a55-a991-101896eacc72",
+          "path": "fal-ai_imagen4_preview/351d414f-026e-4a55-a991-101896eacc72.jpeg",
+          "comment": "Slight inconsistencies",
+          "score": 1.0,
+          "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city."
+        },
+        {
+          "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+          "path": "fal-ai_imagen4_preview/3a4324bf-e54a-4a5f-94e5-77c6adb4aff5.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping."
+        },
+        {
+          "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+          "path": "fal-ai_imagen4_preview/5417bcb1-780d-4c25-9400-05fd961ddbe5.jpeg",
+          "comment": "Snake-y",
+          "score": 2.0,
+          "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking."
+        },
+        {
+          "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+          "path": "fal-ai_imagen4_preview/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.jpeg",
+          "comment": "Yes it's supposed to miss a glove but everything else makes up for it",
+          "score": 2.0,
+          "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere."
+        },
+        {
+          "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+          "path": "fal-ai_imagen4_preview/78bad47c-3100-42e8-8f7a-8af8283f175f.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light."
+        },
+        {
+          "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+          "path": "fal-ai_imagen4_preview/80a63809-86f6-449f-844d-d6e5df161211.jpeg",
+          "comment": "That's not a manhole",
+          "score": 1.0,
+          "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like."
+        },
+        {
+          "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+          "path": "fal-ai_imagen4_preview/88cfbbde-3f91-41e2-90a1-017b9ecee0d9.jpeg",
+          "comment": "You're supposed to stand in front of it",
+          "score": 1.0,
+          "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward."
+        },
+        {
+          "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+          "path": "fal-ai_imagen4_preview/aa04e6ed-a43a-479c-a2a3-74ca255004fa.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk."
+        },
+        {
+          "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+          "path": "fal-ai_imagen4_preview/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.jpeg",
+          "comment": "Wrong pose",
+          "score": 1.0,
+          "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile."
+        },
+        {
+          "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+          "path": "fal-ai_imagen4_preview/b523278b-4818-497f-bc86-dab4d96c560b.jpeg",
+          "comment": "It works",
+          "score": 2.0,
+          "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing."
+        },
+        {
+          "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+          "path": "fal-ai_imagen4_preview/c7a774a1-5500-488b-a1ba-8a22063b245f.jpeg",
+          "comment": "Awesome",
+          "score": 2.0,
+          "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen."
+        },
+        {
+          "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+          "path": "fal-ai_imagen4_preview/e43b3a4e-8d93-4984-946d-484f9ffb7ad9.jpeg",
+          "comment": "Beautiful",
+          "score": 2.0,
+          "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces."
+        },
+        {
+          "uid": "ec96014f-2261-4484-827d-22d16a349008",
+          "path": "fal-ai_imagen4_preview/ec96014f-2261-4484-827d-22d16a349008.jpeg",
+          "comment": "Good composition, bad words",
+          "score": 1.0,
+          "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style"
+        }
+      ]
+    },
+    {
+      "name": "fal-ai/nano-banana",
+      "slug": "fal-ai_nano-banana",
+      "stats": {
+        "name": "fal-ai/nano-banana",
+        "slug": "fal-ai_nano-banana",
+        "costPerImage": 0.039,
+        "costPerMegapixel": null,
+        "p90Latency": 13.5,
+        "elo": 1168,
+        "link": "https://fal.ai/models/fal-ai/nano-banana"
+      },
+      "t2iVibeEval": {
+        "total": 26.0,
+        "average": 1.625,
+        "count": 16
+      },
+      "images": [
+        {
+          "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+          "path": "fal-ai_nano-banana/001d63f5-dcb6-46ec-bf0f-390c70907e0f.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly."
+        },
+        {
+          "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+          "path": "fal-ai_nano-banana/1aeda8a1-87bf-45d3-96c8-ab878760119f.jpeg",
+          "comment": "Too cartoonish",
+          "score": 1.0,
+          "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest."
+        },
+        {
+          "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+          "path": "fal-ai_nano-banana/1c326f49-5ef9-4dae-827f-347f1fe52dbc.jpeg",
+          "comment": "Not realistic",
+          "score": 1.0,
+          "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same."
+        },
+        {
+          "uid": "351d414f-026e-4a55-a991-101896eacc72",
+          "path": "fal-ai_nano-banana/351d414f-026e-4a55-a991-101896eacc72.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city."
+        },
+        {
+          "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+          "path": "fal-ai_nano-banana/3a4324bf-e54a-4a5f-94e5-77c6adb4aff5.jpeg",
+          "comment": "Nice",
+          "score": 2.0,
+          "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping."
+        },
+        {
+          "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+          "path": "fal-ai_nano-banana/5417bcb1-780d-4c25-9400-05fd961ddbe5.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking."
+        },
+        {
+          "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+          "path": "fal-ai_nano-banana/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.jpeg",
+          "comment": "Michael Jackson is banned noo",
+          "score": 0.0,
+          "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere."
+        },
+        {
+          "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+          "path": "fal-ai_nano-banana/78bad47c-3100-42e8-8f7a-8af8283f175f.jpeg",
+          "comment": "Awesome",
+          "score": 2.0,
+          "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light."
+        },
+        {
+          "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+          "path": "fal-ai_nano-banana/80a63809-86f6-449f-844d-d6e5df161211.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like."
+        },
+        {
+          "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+          "path": "fal-ai_nano-banana/88cfbbde-3f91-41e2-90a1-017b9ecee0d9.jpeg",
+          "comment": "Photogenic man",
+          "score": 2.0,
+          "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward."
+        },
+        {
+          "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+          "path": "fal-ai_nano-banana/aa04e6ed-a43a-479c-a2a3-74ca255004fa.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk."
+        },
+        {
+          "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+          "path": "fal-ai_nano-banana/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.jpeg",
+          "comment": "Wrong pose",
+          "score": 1.0,
+          "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile."
+        },
+        {
+          "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+          "path": "fal-ai_nano-banana/b523278b-4818-497f-bc86-dab4d96c560b.jpeg",
+          "comment": "It works",
+          "score": 2.0,
+          "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing."
+        },
+        {
+          "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+          "path": "fal-ai_nano-banana/c7a774a1-5500-488b-a1ba-8a22063b245f.jpeg",
+          "comment": "Awesome",
+          "score": 2.0,
+          "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen."
+        },
+        {
+          "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+          "path": "fal-ai_nano-banana/e43b3a4e-8d93-4984-946d-484f9ffb7ad9.jpeg",
+          "comment": "Beautiful",
+          "score": 2.0,
+          "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces."
+        },
+        {
+          "uid": "ec96014f-2261-4484-827d-22d16a349008",
+          "path": "fal-ai_nano-banana/ec96014f-2261-4484-827d-22d16a349008.jpeg",
+          "comment": "Good composition, bad words",
+          "score": 1.0,
+          "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style"
+        }
+      ]
+    },
+    {
+      "name": "fal-ai/recraft/v3/text-to-image",
+      "slug": "fal-ai_recraft_v3_text-to-image",
+      "stats": {
+        "name": "fal-ai/recraft/v3/text-to-image",
+        "slug": "fal-ai_recraft_v3_text-to-image",
+        "costPerImage": 0.04,
+        "costPerMegapixel": null,
+        "p90Latency": 7.68,
+        "elo": 1114,
+        "link": "https://fal.ai/models/fal-ai/recraft/v3/text-to-image"
+      },
+      "t2iVibeEval": {
+        "total": 15.0,
+        "average": 0.938,
+        "count": 16
+      },
+      "images": [
+        {
+          "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+          "path": "fal-ai_recraft_v3_text-to-image/001d63f5-dcb6-46ec-bf0f-390c70907e0f.jpeg",
+          "comment": "Missing a person",
+          "score": 1.0,
+          "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly."
+        },
+        {
+          "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+          "path": "fal-ai_recraft_v3_text-to-image/1aeda8a1-87bf-45d3-96c8-ab878760119f.jpeg",
+          "comment": "Awesome",
+          "score": 2.0,
+          "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest."
+        },
+        {
+          "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+          "path": "fal-ai_recraft_v3_text-to-image/1c326f49-5ef9-4dae-827f-347f1fe52dbc.jpeg",
+          "comment": "Uhh... It's a little too much",
+          "score": 1.0,
+          "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same."
+        },
+        {
+          "uid": "351d414f-026e-4a55-a991-101896eacc72",
+          "path": "fal-ai_recraft_v3_text-to-image/351d414f-026e-4a55-a991-101896eacc72.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city."
+        },
+        {
+          "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+          "path": "fal-ai_recraft_v3_text-to-image/3a4324bf-e54a-4a5f-94e5-77c6adb4aff5.jpeg",
+          "comment": "The logo and the reflection are off",
+          "score": 1.0,
+          "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping."
+        },
+        {
+          "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+          "path": "fal-ai_recraft_v3_text-to-image/5417bcb1-780d-4c25-9400-05fd961ddbe5.jpeg",
+          "comment": "Not bent",
+          "score": 0.0,
+          "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking."
+        },
+        {
+          "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+          "path": "fal-ai_recraft_v3_text-to-image/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.jpeg",
+          "comment": "Michael Jackson is banned noo",
+          "score": 0.0,
+          "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere."
+        },
+        {
+          "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+          "path": "fal-ai_recraft_v3_text-to-image/78bad47c-3100-42e8-8f7a-8af8283f175f.jpeg",
+          "comment": "Awesome",
+          "score": 2.0,
+          "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light."
+        },
+        {
+          "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+          "path": "fal-ai_recraft_v3_text-to-image/80a63809-86f6-449f-844d-d6e5df161211.jpeg",
+          "comment": "The bus is off",
+          "score": 1.0,
+          "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like."
+        },
+        {
+          "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+          "path": "fal-ai_recraft_v3_text-to-image/88cfbbde-3f91-41e2-90a1-017b9ecee0d9.jpeg",
+          "comment": "That's a giant",
+          "score": 1.0,
+          "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward."
+        },
+        {
+          "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+          "path": "fal-ai_recraft_v3_text-to-image/aa04e6ed-a43a-479c-a2a3-74ca255004fa.jpeg",
+          "comment": "Don't run behind the car lady",
+          "score": 1.0,
+          "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk."
+        },
+        {
+          "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+          "path": "fal-ai_recraft_v3_text-to-image/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.jpeg",
+          "comment": "Yoga is banned",
+          "score": 0.0,
+          "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile."
+        },
+        {
+          "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+          "path": "fal-ai_recraft_v3_text-to-image/b523278b-4818-497f-bc86-dab4d96c560b.jpeg",
+          "comment": "There is a weird amalgam of a staircase and a bookshelf",
+          "score": 1.0,
+          "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing."
+        },
+        {
+          "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+          "path": "fal-ai_recraft_v3_text-to-image/c7a774a1-5500-488b-a1ba-8a22063b245f.jpeg",
+          "comment": "Looks good at first glance but details are off",
+          "score": 1.0,
+          "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen."
+        },
+        {
+          "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+          "path": "fal-ai_recraft_v3_text-to-image/e43b3a4e-8d93-4984-946d-484f9ffb7ad9.jpeg",
+          "comment": "The cola sign and the details are off",
+          "score": 1.0,
+          "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces."
+        },
+        {
+          "uid": "ec96014f-2261-4484-827d-22d16a349008",
+          "path": "fal-ai_recraft_v3_text-to-image/ec96014f-2261-4484-827d-22d16a349008.jpeg",
+          "comment": "Nice words are banned",
+          "score": 0.0,
+          "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style"
+        }
+      ]
+    },
+    {
+      "name": "fal-ai/wan-25-preview/text-to-image",
+      "slug": "fal-ai_wan-25-preview_text-to-image",
+      "stats": {
+        "name": "fal-ai/wan-25-preview/text-to-image",
+        "slug": "fal-ai_wan-25-preview_text-to-image",
+        "costPerImage": 0.05,
+        "costPerMegapixel": null,
+        "p90Latency": 20.17,
+        "elo": null,
+        "link": "https://fal.ai/models/fal-ai/wan-25-preview/text-to-image"
+      },
+      "t2iVibeEval": {
+        "total": 24.0,
+        "average": 1.5,
+        "count": 16
+      },
+      "images": [
+        {
+          "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+          "path": "fal-ai_wan-25-preview_text-to-image/001d63f5-dcb6-46ec-bf0f-390c70907e0f.jpeg",
+          "comment": "One of the best",
+          "score": 2.0,
+          "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly."
+        },
+        {
+          "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+          "path": "fal-ai_wan-25-preview_text-to-image/1aeda8a1-87bf-45d3-96c8-ab878760119f.jpeg",
+          "comment": "Adam and Eve are banned",
+          "score": 0.0,
+          "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest."
+        },
+        {
+          "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+          "path": "fal-ai_wan-25-preview_text-to-image/1c326f49-5ef9-4dae-827f-347f1fe52dbc.jpeg",
+          "comment": "Good amount of expressiveness",
+          "score": 2.0,
+          "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same."
+        },
+        {
+          "uid": "351d414f-026e-4a55-a991-101896eacc72",
+          "path": "fal-ai_wan-25-preview_text-to-image/351d414f-026e-4a55-a991-101896eacc72.jpeg",
+          "comment": "Not it",
+          "score": 1.0,
+          "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city."
+        },
+        {
+          "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+          "path": "fal-ai_wan-25-preview_text-to-image/3a4324bf-e54a-4a5f-94e5-77c6adb4aff5.jpeg",
+          "comment": "Not perfect but it works",
+          "score": 2.0,
+          "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping."
+        },
+        {
+          "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+          "path": "fal-ai_wan-25-preview_text-to-image/5417bcb1-780d-4c25-9400-05fd961ddbe5.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking."
+        },
+        {
+          "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+          "path": "fal-ai_wan-25-preview_text-to-image/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.jpeg",
+          "comment": "Not a print, and the face is a little too airbrushed",
+          "score": 1.0,
+          "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere."
+        },
+        {
+          "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+          "path": "fal-ai_wan-25-preview_text-to-image/78bad47c-3100-42e8-8f7a-8af8283f175f.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light."
+        },
+        {
+          "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+          "path": "fal-ai_wan-25-preview_text-to-image/80a63809-86f6-449f-844d-d6e5df161211.jpeg",
+          "comment": "Steam is not coming from a cover but the aesthetics make up for it",
+          "score": 2.0,
+          "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like."
+        },
+        {
+          "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+          "path": "fal-ai_wan-25-preview_text-to-image/88cfbbde-3f91-41e2-90a1-017b9ecee0d9.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward."
+        },
+        {
+          "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+          "path": "fal-ai_wan-25-preview_text-to-image/aa04e6ed-a43a-479c-a2a3-74ca255004fa.jpeg",
+          "comment": "It's from 2027",
+          "score": 2.0,
+          "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk."
+        },
+        {
+          "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+          "path": "fal-ai_wan-25-preview_text-to-image/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.jpeg",
+          "comment": "Wrong pose",
+          "score": 1.0,
+          "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile."
+        },
+        {
+          "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+          "path": "fal-ai_wan-25-preview_text-to-image/b523278b-4818-497f-bc86-dab4d96c560b.jpeg",
+          "comment": "The unintelligible words are too apparent",
+          "score": 1.0,
+          "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing."
+        },
+        {
+          "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+          "path": "fal-ai_wan-25-preview_text-to-image/c7a774a1-5500-488b-a1ba-8a22063b245f.jpeg",
+          "comment": "Too many head-on collisions",
+          "score": 1.0,
+          "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen."
+        },
+        {
+          "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+          "path": "fal-ai_wan-25-preview_text-to-image/e43b3a4e-8d93-4984-946d-484f9ffb7ad9.jpeg",
+          "comment": "Alright",
+          "score": 2.0,
+          "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces."
+        },
+        {
+          "uid": "ec96014f-2261-4484-827d-22d16a349008",
+          "path": "fal-ai_wan-25-preview_text-to-image/ec96014f-2261-4484-827d-22d16a349008.jpeg",
+          "comment": "Words are off",
+          "score": 1.0,
+          "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style"
+        }
+      ]
+    },
+    {
+      "name": "fal-ai/wan/v2.2-a14b/text-to-image",
+      "slug": "fal-ai_wan_v2.2-a14b_text-to-image",
+      "stats": {
+        "name": "fal-ai/wan/v2.2-a14b/text-to-image",
+        "slug": "fal-ai_wan_v2.2-a14b_text-to-image",
+        "costPerImage": 0.025,
+        "costPerMegapixel": null,
+        "p90Latency": 5.44,
+        "elo": null,
+        "link": "https://fal.ai/models/fal-ai/wan/v2.2-a14b/text-to-image"
+      },
+      "t2iVibeEval": {
+        "total": 21.0,
+        "average": 1.312,
+        "count": 16
+      },
+      "images": [
+        {
+          "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/001d63f5-dcb6-46ec-bf0f-390c70907e0f.jpeg",
+          "comment": "Extra person",
+          "score": 1.0,
+          "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly."
+        },
+        {
+          "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/1aeda8a1-87bf-45d3-96c8-ab878760119f.jpeg",
+          "comment": "Too cartoonish",
+          "score": 1.0,
+          "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest."
+        },
+        {
+          "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/1c326f49-5ef9-4dae-827f-347f1fe52dbc.jpeg",
+          "comment": "Too airbrushed",
+          "score": 1.0,
+          "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same."
+        },
+        {
+          "uid": "351d414f-026e-4a55-a991-101896eacc72",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/351d414f-026e-4a55-a991-101896eacc72.jpeg",
+          "comment": "They all look the same",
+          "score": 1.0,
+          "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city."
+        },
+        {
+          "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/3a4324bf-e54a-4a5f-94e5-77c6adb4aff5.jpeg",
+          "comment": "Reflection is off",
+          "score": 1.0,
+          "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping."
+        },
+        {
+          "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/5417bcb1-780d-4c25-9400-05fd961ddbe5.jpeg",
+          "comment": "I'll give this a pass",
+          "score": 2.0,
+          "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking."
+        },
+        {
+          "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.jpeg",
+          "comment": "Supposed to have a single glove",
+          "score": 1.0,
+          "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere."
+        },
+        {
+          "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/78bad47c-3100-42e8-8f7a-8af8283f175f.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light."
+        },
+        {
+          "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/80a63809-86f6-449f-844d-d6e5df161211.jpeg",
+          "comment": "Steam is not coming from a cover",
+          "score": 1.0,
+          "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like."
+        },
+        {
+          "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/88cfbbde-3f91-41e2-90a1-017b9ecee0d9.jpeg",
+          "comment": "A modern take but OK",
+          "score": 2.0,
+          "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward."
+        },
+        {
+          "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/aa04e6ed-a43a-479c-a2a3-74ca255004fa.jpeg",
+          "comment": "Alright",
+          "score": 2.0,
+          "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk."
+        },
+        {
+          "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.jpeg",
+          "comment": "Realistic spaghetti",
+          "score": 1.0,
+          "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile."
+        },
+        {
+          "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/b523278b-4818-497f-bc86-dab4d96c560b.jpeg",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing."
+        },
+        {
+          "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/c7a774a1-5500-488b-a1ba-8a22063b245f.jpeg",
+          "comment": "Faces are too airbrushed, mangled arm apparent at first sight",
+          "score": 1.0,
+          "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen."
+        },
+        {
+          "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/e43b3a4e-8d93-4984-946d-484f9ffb7ad9.jpeg",
+          "comment": "It's OK",
+          "score": 1.0,
+          "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces."
+        },
+        {
+          "uid": "ec96014f-2261-4484-827d-22d16a349008",
+          "path": "fal-ai_wan_v2.2-a14b_text-to-image/ec96014f-2261-4484-827d-22d16a349008.jpeg",
+          "comment": "Finally a different wallet, but the words are off",
+          "score": 1.0,
+          "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style"
+        }
+      ]
+    },
+    {
+      "name": "grok",
+      "slug": "grok",
+      "stats": {
+        "name": "grok",
+        "slug": "grok",
+        "costPerImage": null,
+        "costPerMegapixel": null,
+        "p90Latency": 14.62,
+        "elo": 930,
+        "link": "https://x.com/i/grok"
+      },
+      "t2iVibeEval": {
+        "total": 16.0,
+        "average": 1.0,
+        "count": 16
+      },
+      "images": [
+        {
+          "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+          "path": "grok/001d63f5-dcb6-46ec-bf0f-390c70907e0f.jpg",
+          "comment": "Extra person",
+          "score": 1.0,
+          "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly."
+        },
+        {
+          "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+          "path": "grok/1aeda8a1-87bf-45d3-96c8-ab878760119f.jpeg",
+          "comment": "Adam and Eve are banned",
+          "score": 0.0,
+          "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest."
+        },
+        {
+          "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+          "path": "grok/1c326f49-5ef9-4dae-827f-347f1fe52dbc.jpg",
+          "comment": "The last two are wrong expressions, placement is weird",
+          "score": 1.0,
+          "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same."
+        },
+        {
+          "uid": "351d414f-026e-4a55-a991-101896eacc72",
+          "path": "grok/351d414f-026e-4a55-a991-101896eacc72.jpg",
+          "comment": "It would have been amazing if it weeren't for the noon lighting",
+          "score": 1.0,
+          "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city."
+        },
+        {
+          "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+          "path": "grok/3a4324bf-e54a-4a5f-94e5-77c6adb4aff5.jpg",
+          "comment": "Not perfect but it works",
+          "score": 2.0,
+          "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping."
+        },
+        {
+          "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+          "path": "grok/5417bcb1-780d-4c25-9400-05fd961ddbe5.jpg",
+          "comment": "Not bent enough",
+          "score": 1.0,
+          "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking."
+        },
+        {
+          "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+          "path": "grok/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.jpg",
+          "comment": "Not a print, and the face is a little too airbrushed",
+          "score": 1.0,
+          "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere."
+        },
+        {
+          "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+          "path": "grok/78bad47c-3100-42e8-8f7a-8af8283f175f.jpg",
+          "comment": "Blurry",
+          "score": 1.0,
+          "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light."
+        },
+        {
+          "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+          "path": "grok/80a63809-86f6-449f-844d-d6e5df161211.jpg",
+          "comment": "Don't stand in the middle of the traffic",
+          "score": 1.0,
+          "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like."
+        },
+        {
+          "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+          "path": "grok/88cfbbde-3f91-41e2-90a1-017b9ecee0d9.jpg",
+          "comment": "I didn't know they had 2 barreled tanks",
+          "score": 1.0,
+          "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward."
+        },
+        {
+          "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+          "path": "grok/aa04e6ed-a43a-479c-a2a3-74ca255004fa.jpg",
+          "comment": "Not centered, logo is off",
+          "score": 1.0,
+          "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk."
+        },
+        {
+          "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+          "path": "grok/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.jpg",
+          "comment": "Atrocious",
+          "score": 0.0,
+          "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile."
+        },
+        {
+          "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+          "path": "grok/b523278b-4818-497f-bc86-dab4d96c560b.jpg",
+          "comment": "Too symmetrical",
+          "score": 1.0,
+          "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing."
+        },
+        {
+          "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+          "path": "grok/c7a774a1-5500-488b-a1ba-8a22063b245f.jpg",
+          "comment": "Playing it safe",
+          "score": 2.0,
+          "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen."
+        },
+        {
+          "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+          "path": "grok/e43b3a4e-8d93-4984-946d-484f9ffb7ad9.jpg",
+          "comment": "Not playing it safe - the overhead lamp should have been visible as on the table well",
+          "score": 1.0,
+          "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces."
+        },
+        {
+          "uid": "ec96014f-2261-4484-827d-22d16a349008",
+          "path": "grok/ec96014f-2261-4484-827d-22d16a349008.jpg",
+          "comment": "Words are off",
+          "score": 1.0,
+          "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style"
+        }
+      ]
+    },
+    {
+      "name": "local-wan2.2",
+      "slug": "local-wan-2.2",
+      "stats": {
+        "name": "local-wan2.2",
+        "slug": "local-wan2.2",
+        "costPerImage": 0.038,
+        "costPerMegapixel": 0.038,
+        "p90Latency": 73.0,
+        "elo": null,
+        "link": "https://www.dropbox.com/scl/fi/pfpzff7eyjcql0uetj1at/WAN2.2_recommended_default_text2image_inference_workflow_by_AI_Characters-v3.json?rlkey=nyu2rfsxxszf38phflacgiseg&e=1&st=xa2zwgb4&dl=0"
+      },
+      "t2iVibeEval": {
+        "total": 21.0,
+        "average": 1.312,
+        "count": 16
+      },
+      "images": [
+        {
+          "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+          "path": "local-wan-2.2/001d63f5-dcb6-46ec-bf0f-390c70907e0f.png",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly."
+        },
+        {
+          "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+          "path": "local-wan-2.2/1aeda8a1-87bf-45d3-96c8-ab878760119f.png",
+          "comment": "It's not supposed to be a painting",
+          "score": 1.0,
+          "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest."
+        },
+        {
+          "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+          "path": "local-wan-2.2/1c326f49-5ef9-4dae-827f-347f1fe52dbc.png",
+          "comment": "Wrong expressions",
+          "score": 1.0,
+          "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same."
+        },
+        {
+          "uid": "351d414f-026e-4a55-a991-101896eacc72",
+          "path": "local-wan-2.2/351d414f-026e-4a55-a991-101896eacc72.png",
+          "comment": "All 3 have the same lighting and Empire States has gone missing",
+          "score": 1.0,
+          "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city."
+        },
+        {
+          "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+          "path": "local-wan-2.2/3a4324bf-e54a-4a5f-94e5-77c6adb4aff5.png",
+          "comment": "Good",
+          "score": 2.0,
+          "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping."
+        },
+        {
+          "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+          "path": "local-wan-2.2/5417bcb1-780d-4c25-9400-05fd961ddbe5.png",
+          "comment": "Not bent enough",
+          "score": 1.0,
+          "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking."
+        },
+        {
+          "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+          "path": "local-wan-2.2/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.png",
+          "comment": "Who is this impersonator?",
+          "score": 1.0,
+          "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere."
+        },
+        {
+          "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+          "path": "local-wan-2.2/78bad47c-3100-42e8-8f7a-8af8283f175f.png",
+          "comment": "Not quite what I'm looking for",
+          "score": 1.0,
+          "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light."
+        },
+        {
+          "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+          "path": "local-wan-2.2/80a63809-86f6-449f-844d-d6e5df161211.png",
+          "comment": "Barely makes the cut",
+          "score": 2.0,
+          "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like."
+        },
+        {
+          "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+          "path": "local-wan-2.2/88cfbbde-3f91-41e2-90a1-017b9ecee0d9.png",
+          "comment": "You're supposed to stand in front of it",
+          "score": 1.0,
+          "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward."
+        },
+        {
+          "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+          "path": "local-wan-2.2/aa04e6ed-a43a-479c-a2a3-74ca255004fa.png",
+          "comment": "Awesome",
+          "score": 2.0,
+          "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk."
+        },
+        {
+          "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+          "path": "local-wan-2.2/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.png",
+          "comment": "Wrong pose",
+          "score": 1.0,
+          "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile."
+        },
+        {
+          "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+          "path": "local-wan-2.2/b523278b-4818-497f-bc86-dab4d96c560b.png",
+          "comment": "Unintelligible letters",
+          "score": 1.0,
+          "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing."
+        },
+        {
+          "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+          "path": "local-wan-2.2/c7a774a1-5500-488b-a1ba-8a22063b245f.png",
+          "comment": "I guess it works",
+          "score": 2.0,
+          "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen."
+        },
+        {
+          "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+          "path": "local-wan-2.2/e43b3a4e-8d93-4984-946d-484f9ffb7ad9.png",
+          "comment": "Who asked for a small screen?",
+          "score": 1.0,
+          "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces."
+        },
+        {
+          "uid": "ec96014f-2261-4484-827d-22d16a349008",
+          "path": "local-wan-2.2/ec96014f-2261-4484-827d-22d16a349008.png",
+          "comment": "Words are off",
+          "score": 1.0,
+          "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style"
+        }
+      ]
+    }
+  ],
+  "prompts": [
+    {
+      "uid": "c7a774a1-5500-488b-a1ba-8a22063b245f",
+      "prompt": "Photo of a crowded middle school hallway packed with students moving in both directions, shoulder to shoulder, creating a sense of congestion and chaos. The hallway has white cinderblock walls, fluorescent ceiling lights, and a row of blue lockers lining the right side. Most of the students are wearing backpacks, with some dressed in casual T-shirts while others wear masks, indicating a post-pandemic setting. A few students are holding phones, and one phone in the foreground clearly shows a brightly lit screen.",
+      "references": []
+    },
+    {
+      "uid": "88cfbbde-3f91-41e2-90a1-017b9ecee0d9",
+      "prompt": "A historical photograph showing a lone man standing in front of a column of military tanks on a wide city street. The man, dressed in a white shirt and dark trousers, holds shopping bags in each hand and stands directly in the path of the lead tank, blocking its advance. The tanks, painted in green camouflage with red insignias, are lined up one behind the other, their large cannons pointing forward.",
+      "references": []
+    },
+    {
+      "uid": "5417bcb1-780d-4c25-9400-05fd961ddbe5",
+      "prompt": "The Eiffel Tower, but heavily distorted in a surreal way. Instead of standing upright, the tower appears bent and leaning dramatically to the right, as if its middle section has been twisted or melted. The base structure still sits firmly on the ground, with the grassy park and trees around it intact, but the warped upper half gives it an impossible, dreamlike quality. The sky above is clear blue, contrasting with the dark iron structure, making the unnatural bend even more striking.",
+      "references": []
+    },
+    {
+      "uid": "ec96014f-2261-4484-827d-22d16a349008",
+      "prompt": "Image of a hand holding a brown leather wallet with a heartfelt engraved message on one of its inside panels. The engraving reads: 'To My Son Wherever your journey in life may take you I pray that you will always be safe. Enjoy the ride and never forget your way back home. I can\u2019t promise to be here for the rest of your life but I can promise to love you for the rest of mine. Love you. Dad'. The message is written in a decorative, cursive-style",
+      "references": []
+    },
+    {
+      "uid": "78bad47c-3100-42e8-8f7a-8af8283f175f",
+      "prompt": "A landscape filled with dozens of colorful hot air balloons floating in the sky at sunrise. The terrain below is rugged, with unique rock formations, valleys, and plateaus, typical of the famous region of Cappadocia in Turkey. The balloons come in a variety of bright colors and patterns, creating a magical and dreamy atmosphere against the soft golden light.",
+      "references": []
+    },
+    {
+      "uid": "351d414f-026e-4a55-a991-101896eacc72",
+      "prompt": "A triptych of New York City at dawn, noon and sunset. The skyline is filled with tall skyscrapers, with the iconic Empire State Building prominently visible among them. In the distance, you can see the outline of more buildings stretching toward the horizon, with rivers framing parts of the city.",
+      "references": []
+    },
+    {
+      "uid": "aa04e6ed-a43a-479c-a2a3-74ca255004fa",
+      "prompt": "Promotional photo of a sleek, modern blue Toyota Corolla driving through a city street bathed in warm sunlight. The car is in motion, with a slight blur in the background emphasizing its speed. The design features sharp, aerodynamic lines, a bold front grille, and stylish headlights, giving it a sporty yet refined appearance. Reflections of the surrounding buildings and trees can be seen on the car\u2019s glossy surface. A pedestrian with a bag is blurred in the background, walking along the sidewalk.",
+      "references": [
+        "assets/prompt-references/aa04e6ed-a43a-479c-a2a3-74ca255004fa.jpeg"
+      ]
+    },
+    {
+      "uid": "80a63809-86f6-449f-844d-d6e5df161211",
+      "prompt": "Photo a moody nighttime urban street scene, steam billows dramatically from a vent in the sidewalk, illuminated by the glow of streetlights and car headlights, creating a cinematic effect. A man in a dark coat stands in silhouette on the sidewalk, looking at his phone. The puddle on the pavement reflects the city lights, adding to the atmospheric feel. In the background, tall office buildings with glowing windows loom over the street, and vehicles including a bus and a taxi are visible amidst the haze. The overall mood is dark, atmospheric, and almost noir-like.",
+      "references": []
+    },
+    {
+      "uid": "ad69785c-eccc-4d47-92b6-0cd3c0e83a82",
+      "prompt": "The image shows a woman performing a challenging yoga pose on a purple mat in a bright, spacious room. She is in a seated variation of a backbend leg stretch, resembling a hybrid between Mermaid Pose and Compass Pose (Parivrtta Surya Yantrasana). She sits on the floor with one leg bent beneath her and the other leg extended upward. Her right leg is lifted straight up, with her right foot pointing toward the ceiling. Her right arm reaches behind her head to grasp the lifted foot, pulling it closer, creating a deep stretch along her side body and spine. Her left arm reaches back to hold her left foot (which is bent on the floor), giving additional stability and creating an elegant curve in her torso. Her chest is open, shoulders rolled back, and she maintains an upright spine with a soft smile.",
+      "references": [
+        "assets/prompt-references/ad69785c-eccc-4d47-92b6-0cd3c0e83a82.jpeg"
+      ]
+    },
+    {
+      "uid": "54abe5d6-5d40-4558-9f09-9c1a12b4bf84",
+      "prompt": "Photo of a Instax print of Michael Jackson wearing a black fedora hat, a sequined black jacket over a white T-shirt, black pants, white socks, and black shoes. He also has on a sparkling white glove on one hand. He is leaning forward with one hand placed near his waist and the other extended dramatically behind him, glowing slightly under the stage lights. The background features tall, illuminated blue panels resembling windows, creating a striking, theatrical atmosphere.",
+      "references": [
+        "assets/prompt-references/54abe5d6-5d40-4558-9f09-9c1a12b4bf84.jpg"
+      ]
+    },
+    {
+      "uid": "001d63f5-dcb6-46ec-bf0f-390c70907e0f",
+      "prompt": "A group of six people stand together, posing for a friendly photo outdoors in natural daylight. Among them is an elderly woman with short gray hair, wearing glasses and a floral blouse; a tall middle-aged man with dark skin and a neatly trimmed beard, dressed in a casual button-up shirt; a young adult woman of East Asian descent with long straight black hair, wearing a bright red jacket; a teenage boy with light brown skin and curly hair, smiling in a graphic t-shirt; a woman in her thirties with fair skin and freckles, her wavy blonde hair tied back as she wears a denim jacket; and a little girl with dark curly hair in pigtails, wearing a yellow dress and holding a small stuffed toy. They are close together, all smiling warmly.",
+      "references": []
+    },
+    {
+      "uid": "1c326f49-5ef9-4dae-827f-347f1fe52dbc",
+      "prompt": "A 2x2 grid of portraits shows the same person from the shoulders up against a neutral background, each square capturing a different emotional expression. In the top-left, the person has a broad smile with bright eyes, radiating happiness. In the top-right, their eyebrows are drawn together and lips pressed firmly, showing anger. In the bottom-left, their eyes are wide with slightly raised eyebrows and mouth slightly open, conveying surprise. In the bottom-right, their gaze is downcast with a slight frown and slumped expression, illustrating sadness. The consistent lighting and framing emphasize the changing emotions while keeping the individual\u2019s features the same.",
+      "references": []
+    },
+    {
+      "uid": "3a4324bf-e54a-4a5f-94e5-77c6adb4aff5",
+      "prompt": "Reflection of a cold Starbucks beverage on a sidewalk, seen on a water puddle on the road. The drink which is not directly visible, is served in a clear plastic cup with the iconic green Starbucks logo on the front and topped with a dome-shaped plastic lid. Inside the cup is a blended chocolate-colored frappuccino with a thick layer of whipped cream on top, generously drizzled with dark chocolate syrup. A bright green straw protrudes through the center of the lid, contrasting with the creamy topping.",
+      "references": []
+    },
+    {
+      "uid": "b523278b-4818-497f-bc86-dab4d96c560b",
+      "prompt": "A cozy, art-filled independent bookstore and library interior with high shelves packed tightly with colorful books reaching up to the ceiling. A large wooden table in the center is covered with a green tablecloth and displays an assortment of art books, photography collections, and design magazines, each with vividly printed covers in various sizes. Around the table are wooden chairs and a few folded T-shirts stacked neatly on nearby shelves. The upper walls are adorned with large, stylish posters \u2014 some featuring minimalist text designs, others vibrant illustrations, and one with pop-art\u2013style portraits. A balcony level lined with more bookshelves overlooks the main floor, where a person can be seen browsing. In the back, a piano and a wooden chest of drawers add a vintage charm to the atmosphere. The lighting is warm and inviting, with modern ceiling lights and a few decorative bulbs strung along the railing.",
+      "references": []
+    },
+    {
+      "uid": "1aeda8a1-87bf-45d3-96c8-ab878760119f",
+      "prompt": "A photo of Adam and Eve in the Garden of Eden. Adam, a muscular bearded man with curly brown hair, sits on the left side of the image, partially covered by large green leaves. He gazes upward toward Eve with a mixture of curiosity and concern, one arm reaching out toward her. Eve, a fair-skinned woman with long flowing brown hair, stands gracefully on the right, leaning slightly toward Adam. She reaches up with her right hand to take a bright red apple from a serpent coiled around the trunk of a lush tree at the center. Both figures are nude except for strategically placed leaves covering their lower bodies. The background shows a rich, natural landscape with dense foliage, other trees bearing fruit, and a soft, cloudy sky that fades into light near the horizon. The lighting is warm and golden, highlighting their bodies against the darker green and brown tones of the forest.",
+      "references": [
+        "assets/prompt-references/1aeda8a1-87bf-45d3-96c8-ab878760119f.jpeg"
+      ]
+    },
+    {
+      "uid": "e43b3a4e-8d93-4984-946d-484f9ffb7ad9",
+      "prompt": "A realistic indoor scene lit by three dramatically different light sources: warm golden sunlight streaming through a window on the left, cool blue fluorescent light from a ceiling fixture above, and the red glow of a neon sign saying 'Coca Cola' reflecting off a nearby glass table. The scene shows a person sitting at the table reading a book, with the colored lights mixing on their face and surroundings \u2014 warm highlights on one side, cool shadows on the other, and subtle red reflections on the glass and metal surfaces.",
+      "references": []
+    }
+  ]
+}
