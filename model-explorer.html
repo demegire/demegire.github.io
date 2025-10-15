@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Text-to-Image Model Explorer | Vibe Evals</title>
+    <title>Model Explorer | Vibe Evals</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
@@ -12,20 +12,19 @@
     />
     <link rel="stylesheet" href="assets/css/theme.css" />
   </head>
-  <body>
+  <body data-default-mode="t2i">
     <header class="hero">
       <div class="hero__inner">
                 <nav class="nav-tabs nav-tabs--primary" aria-label="Explore views">
           <a class="nav-tab nav-tab--active" href="#" aria-current="page">Explore Models</a>
           <a class="nav-tab" href="t2i-vibe-eval.html">Explore Vibe Evals</a>
         </nav>
-        <nav class="nav-tabs nav-tabs--secondary" aria-label="Explore datasets">
-          <a class="nav-tab nav-tab--active" href="#" aria-current="page">Text2Image</a>
-          <span class="nav-tab" aria-disabled="true">Coming soon</span>
+        <nav class="nav-tabs nav-tabs--secondary" id="dataset-nav" aria-label="Explore datasets">
+          <a class="nav-tab nav-tab--active" href="#" aria-current="page">Loading...</a>
         </nav>
-        <h1 class="hero__title">Text-to-Image Model Explorer</h1>
-        <p class="hero__subtitle">
-          Compare generation cost, latency, and scores across text-to-image models.
+        <h1 class="hero__title" id="hero-title">Model Explorer</h1>
+        <p class="hero__subtitle" id="hero-subtitle">
+          Loading dataset details...
         </p>
       </div>
     </header>
@@ -37,58 +36,11 @@
         </p>
         <div class="table-container">
           <table class="data-table" id="model-table">
-            <thead>
-              <tr>
-                <th scope="col">
-                  <div class="header-cell">
-                    <span class="header-label">Model</span>
-                    <button class="sort-button" type="button" data-key="name" aria-label="Sort by model name">&#8597;</button>
-                  </div>
-                </th>
-                <th scope="col">
-                  <div class="header-cell">
-                    <span class="header-label">Cost / Image</span>
-                    <button class="sort-button" type="button" data-key="costPerImage" aria-label="Sort by cost per image">&#8597;</button>
-                  </div>
-                </th>
-                <th scope="col">
-                  <div class="header-cell">
-                    <span class="header-label">Cost / MP</span>
-                    <button class="sort-button" type="button" data-key="costPerMegapixel" aria-label="Sort by cost per megapixel">&#8597;</button>
-                  </div>
-                </th>
-                <th scope="col">
-                  <div class="header-cell">
-                    <span class="header-label">p90 Latency</span>
-                    <button class="sort-button" type="button" data-key="p90Latency" aria-label="Sort by p90 latency">&#8597;</button>
-                  </div>
-                </th>
-                <th scope="col">
-                  <div class="header-cell">
-                    <a class="header-link" href="t2i-vibe-eval.html">T2I Vibe Eval</a>
-                    <button class="sort-button" type="button" data-key="t2iTotal" aria-label="Sort by vibe score">&#8597;</button>
-                  </div>
-                </th>
-                                <th scope="col">
-                  <div class="header-cell">
-                    <a class="header-link" href="https://artificialanalysis.ai/image/leaderboard/text-to-image" target="_blank" rel="noopener">Artificial Analysis ELO</a>
-                    <button class="sort-button" type="button" data-key="elo" aria-label="Sort by Artificial Analysis ELO">&#8597;</button>
-                  </div>
-                </th>
-              </tr>
-              <tr class="filters">
-                <th><input class="column-filter" type="text" data-key="name" placeholder="Filter model" /></th>
-                <th><input class="column-filter" type="text" data-key="costPerImage" placeholder="e.g. &lt;=0.05" /></th>
-                <th><input class="column-filter" type="text" data-key="costPerMegapixel" placeholder="Filter" /></th>
-                <th><input class="column-filter" type="text" data-key="p90Latency" placeholder="e.g. &lt;10" /></th>
-                <th><input class="column-filter" type="text" data-key="t2iTotal" placeholder="e.g. &gt;20" /></th>
-                <th><input class="column-filter" type="text" data-key="elo" placeholder="e.g. >=1100" /></th>
-              </tr>
-            </thead>
+            <thead id="model-table-head"></thead>
             <tbody></tbody>
           </table>
         </div>
-        <p class="table-note">
+        <p class="table-note" id="table-tip">
           Tip: Click the vibe score badge to jump directly to that model inside the benchmark breakdown.
         </p>
       </section>

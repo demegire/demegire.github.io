@@ -13,6 +13,34 @@ export async function loadSiteData() {
   return __siteDataCache;
 }
 
+export function listModes(data) {
+  if (!data || typeof data !== "object") {
+    return [];
+  }
+  const modes = data.modes;
+  if (!modes || typeof modes !== "object") {
+    return [];
+  }
+  return Object.keys(modes).map((slug) => ({
+    slug,
+    payload: modes[slug],
+  }));
+}
+
+export function resolveMode(data, requestedSlug) {
+  const entries = listModes(data);
+  if (!entries.length) {
+    return { slug: null, payload: null };
+  }
+  if (requestedSlug) {
+    const match = entries.find((entry) => entry.slug === requestedSlug);
+    if (match) {
+      return match;
+    }
+  }
+  return entries[0];
+}
+
 export function formatCurrency(value) {
   if (typeof value !== "number" || Number.isNaN(value)) {
     return "\u2013";

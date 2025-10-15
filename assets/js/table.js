@@ -1,126 +1,317 @@
-﻿import {
+import {
   loadSiteData,
   formatCurrency,
   formatLatency,
   formatScore,
   createAnchorId,
   numericFrom,
+  resolveMode,
+  listModes,
 } from "./site.js";
 
-const EXTERNAL_LEADERBOARD_URL = "https://artificialanalysis.ai/image/leaderboard/text-to-image";
+const tableHead = document.getElementById("model-table-head");
+const tableBody = document.querySelector("#model-table tbody");
+const datasetNavEl = document.getElementById("dataset-nav");
+const heroTitleEl = document.getElementById("hero-title");
+const heroSubtitleEl = document.getElementById("hero-subtitle");
+const tableTipEl = document.getElementById("table-tip");
+const primaryNavBenchmarkLink = document.querySelector('.nav-tabs--primary a[href$="vibe-eval.html"]');
 
-const numericColumns = new Set([
-  "costPerImage",
-  "costPerMegapixel",
-  "p90Latency",
-  "t2iTotal",
-  "elo",
-]);
+const urlMode = new URLSearchParams(window.location.search).get("mode");
+const defaultMode = document.body?.dataset?.defaultMode || null;
+const requestedMode = urlMode || defaultMode;
 
 const state = {
+  modeSlug: null,
+  modePayload: null,
+  benchmark: null,
+  columns: [],
   rows: [],
-  sortKey: "t2iTotal",
+  sortKey: null,
   sortDirection: "desc",
   filters: new Map(),
+  sortButtons: [],
+  filterInputs: [],
 };
-
-const tableBody = document.querySelector("#model-table tbody");
-const sortButtons = Array.from(document.querySelectorAll(".sort-button"));
-const filterInputs = Array.from(document.querySelectorAll(".column-filter"));
 
 async function init() {
   try {
     const data = await loadSiteData();
-    state.rows = data.models.map(mapRow);
+    const resolved = resolveMode(data, requestedMode);
+    state.modeSlug = resolved.slug;
+    state.modePayload = resolved.payload;
+    if (!state.modeSlug || !state.modePayload) {
+      throw new Error("No model data available.");
+    }
+    state.benchmark = state.modePayload.benchmark || { slug: "vibe", name: "Vibe Eval" };
+    configureDatasetNav(data);
+    updatePrimaryNav();
+    updateHero();
+    state.columns = buildColumns(state.modePayload, state.modeSlug);
+    state.rows = (state.modePayload.models || []).map((model) => mapRow(model, state.modePayload, state.benchmark));
+    setInitialSort();
+    renderTableHead();
     render();
   } catch (error) {
     console.error(error);
-    tableBody.innerHTML = `<tr><td colspan="6">Failed to load model data.</td></tr>`;
+    if (tableBody) {
+      tableBody.innerHTML = `<tr><td colspan="4">Failed to load model data.</td></tr>`;
+    }
+    if (datasetNavEl) {
+      datasetNavEl.innerHTML = `<span class="nav-tab" aria-disabled="true">Unavailable</span>`;
+    }
   }
 }
 
-function mapRow(model) {
+function configureDatasetNav(data) {
+  if (!datasetNavEl) {
+    return;
+  }
+  const modes = listModes(data);
+  if (!modes.length) {
+    datasetNavEl.innerHTML = `<span class="nav-tab" aria-disabled="true">No datasets</span>`;
+    return;
+  }
+  datasetNavEl.innerHTML = modes
+    .map(({ slug, payload }) => {
+      const label = payload?.label || slug.toUpperCase();
+      if (slug === state.modeSlug) {
+        return `<a class="nav-tab nav-tab--active" href="${encodeURI(buildModeUrl(slug))}" aria-current="page">${escapeHtml(
+          label
+        )}</a>`;
+      }
+      return `<a class="nav-tab" href="${encodeURI(buildModeUrl(slug))}">${escapeHtml(label)}</a>`;
+    })
+    .join("");
+}
+
+function updatePrimaryNav() {
+  if (!primaryNavBenchmarkLink || !state.modeSlug) {
+    return;
+  }
+  primaryNavBenchmarkLink.setAttribute("href", `${state.modeSlug}-vibe-eval.html`);
+}
+
+function updateHero() {
+  if (heroTitleEl && state.modePayload?.title) {
+    heroTitleEl.textContent = `${state.modePayload.title} Model Explorer`;
+  }
+  if (heroSubtitleEl && state.modePayload?.label) {
+    heroSubtitleEl.textContent = `Compare generation cost, latency, and scores across ${state.modePayload.label} models.`;
+  }
+  if (tableTipEl && state.modePayload?.label) {
+    tableTipEl.textContent = `Tip: Click the vibe score badge to jump directly to that model inside the ${state.modePayload.label} benchmark breakdown.`;
+  }
+}
+
+function buildColumns(modePayload, modeSlug) {
+  const columns = [
+    {
+      key: "name",
+      label: "Model",
+      type: "text",
+      sortable: true,
+      filterable: true,
+      defaultSort: false,
+    },
+  ];
+
+  const statsHeaders = (modePayload.statsHeaders || []).filter((header) => header.key !== "link");
+  statsHeaders.forEach((header) => {
+    columns.push({
+      key: header.key,
+      label: header.label,
+      href: header.href || header.url || null,
+      type: header.value_type || "number",
+      sortable: true,
+      filterable: true,
+      defaultSort: false,
+    });
+  });
+
+  const benchmarkHref =
+    modePayload?.benchmark?.href ||
+    (modeSlug ? `${modeSlug}-vibe-eval.html` : null);
+
+  columns.push({
+    key: "benchmarkTotal",
+    label: modePayload.benchmark?.name || "Benchmark Score",
+    href: benchmarkHref,
+    type: "score",
+    sortable: true,
+    filterable: true,
+    defaultSort: true,
+  });
+
+  return columns;
+}
+
+function mapRow(model, modePayload, benchmark) {
   const stats = model.stats || {};
-  const vibe = model.t2iVibeEval || {};
-  return {
+  const benchmarkSlug = benchmark.slug || "vibe";
+  const benchmarkEntry = (model.benchmarks || {})[benchmarkSlug] || {};
+  const headers = (modePayload.statsHeaders || []).filter((header) => header.key !== "link");
+
+  const row = {
     slug: model.slug,
     anchor: createAnchorId(model.slug),
     name: model.name,
     statsLink: stats.link || null,
     source: model.slug,
-    costPerImage: numericFrom(stats.costPerImage),
-    costPerMegapixel: numericFrom(stats.costPerMegapixel),
-    p90Latency: numericFrom(stats.p90Latency),
-    t2iTotal: numericFrom(vibe.total) ?? 0,
-    elo: numericFrom(stats.elo),
+    benchmarkTotal: numericFrom(benchmarkEntry.total) ?? 0,
   };
+
+  headers.forEach((header) => {
+    const value = stats[header.key];
+    row[header.key] = value === null || value === undefined ? null : numericFrom(value);
+  });
+
+  return row;
 }
 
-function render() {
-  const filtered = state.rows.filter((row) => matchesFilters(row));
-  const sorted = filtered.sort((a, b) => compareRows(a, b));
-  tableBody.innerHTML = sorted.map((row) => renderRow(row)).join("\n");
+function setInitialSort() {
+  const defaultColumn = state.columns.find((column) => column.defaultSort) || state.columns.find((column) => column.sortable);
+  if (defaultColumn) {
+    state.sortKey = defaultColumn.key;
+    state.sortDirection = "desc";
+  }
+}
+
+function renderTableHead() {
+  if (!tableHead) {
+    return;
+  }
+  const headerRowHtml = `
+    <tr>
+      ${state.columns
+        .map((column) => {
+          if (!column.sortable) {
+            return `<th scope="col"><div class="header-cell">${renderHeaderLabel(column)}</div></th>`;
+          }
+          const direction = column.key === state.sortKey ? state.sortDirection : "";
+          const ariaLabel = `Sort by ${column.label}${direction ? ` (${direction === "asc" ? "ascending" : "descending"})` : ""}`;
+          return `
+            <th scope="col">
+              <div class="header-cell">
+                ${renderHeaderLabel(column)}
+                <button class="sort-button" type="button" data-key="${escapeHtml(column.key)}" data-direction="${direction}" aria-label="${escapeHtml(
+            ariaLabel
+          )}">&#8597;</button>
+              </div>
+            </th>
+          `;
+        })
+        .join("")}
+    </tr>
+  `;
+
+  const filterRowHtml = `
+    <tr class="filters">
+      ${state.columns
+        .map((column) => {
+          if (!column.filterable) {
+            return "<th></th>";
+          }
+          const placeholder = getFilterPlaceholder(column);
+          return `<th><input class="column-filter" type="text" data-key="${escapeHtml(column.key)}" placeholder="${escapeHtml(placeholder)}" /></th>`;
+        })
+        .join("")}
+    </tr>
+  `;
+
+  tableHead.innerHTML = headerRowHtml + filterRowHtml;
+  state.sortButtons = Array.from(document.querySelectorAll(".sort-button"));
+  state.filterInputs = Array.from(document.querySelectorAll(".column-filter"));
+  attachHeaderListeners();
   updateSortButtons();
 }
 
-function renderRow(row) {
-  const statsHref = row.statsLink ? encodeURI(row.statsLink) : null;
-  const nameLabel = escapeHtml(row.name);
-  const nameCell = statsHref
-    ? `<a class="model-name-link" href="${statsHref}" target="_blank" rel="noopener">${nameLabel}</a>`
-    : `<span>${nameLabel}</span>`;
-  const scoreValue = formatScore(row.t2iTotal);
-  const scoreLabel = "View " + nameLabel + " in benchmark";
-  const eloCell = row.elo != null
-    ? `<a href="${EXTERNAL_LEADERBOARD_URL}" target="_blank" rel="noopener">${formatScore(row.elo)}</a>`
-    : "\u2013";
-  return `
-    <tr>
-      <td>${nameCell}</td>
-      <td>${formatCurrency(row.costPerImage)}</td>
-      <td>${formatCurrency(row.costPerMegapixel)}</td>
-      <td>${formatLatency(row.p90Latency)}</td>
-      <td>
-        <a class="score-link" href="t2i-vibe-eval.html#${row.anchor}" aria-label="${scoreLabel}">${scoreValue}</a>
-      </td>
-      <td>${eloCell}</td>
-    </tr>
-  `;
+function attachHeaderListeners() {
+  state.sortButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const key = button.dataset.key;
+      if (!key) {
+        return;
+      }
+      if (state.sortKey === key) {
+        state.sortDirection = state.sortDirection === "asc" ? "desc" : "asc";
+      } else {
+        state.sortKey = key;
+        state.sortDirection = "desc";
+      }
+      updateSortButtons();
+      render();
+    });
+  });
+
+  state.filterInputs.forEach((input) => {
+    input.addEventListener("input", (event) => {
+      const target = event.currentTarget;
+      const key = target.dataset.key;
+      state.filters.set(key, target.value);
+      render();
+    });
+  });
 }
 
-function updateSortButtons() {
-  sortButtons.forEach((button) => {
-    const key = button.dataset.key;
-    if (key === state.sortKey) {
-      button.dataset.direction = state.sortDirection;
-      button.setAttribute(
-        "aria-label",
-        `Sort by ${button.previousElementSibling?.textContent || key} (${state.sortDirection === "asc" ? "ascending" : "descending"})`
-      );
-    } else {
-      button.dataset.direction = "";
-      button.setAttribute("aria-label", `Sort by ${button.previousElementSibling?.textContent || key}`);
-    }
-  });
+function render() {
+  if (!tableBody) {
+    return;
+  }
+  const filtered = state.rows.filter((row) => matchesFilters(row));
+  const sorted = filtered.sort((a, b) => compareRows(a, b));
+  if (!sorted.length) {
+    tableBody.innerHTML = `<tr><td colspan="${state.columns.length}">No models match the applied filters.</td></tr>`;
+    return;
+  }
+  tableBody.innerHTML = sorted.map((row) => renderRow(row)).join("\n");
+}
+
+function renderRow(row) {
+  const cells = state.columns.map((column) => renderCell(row, column)).join("\n");
+  return `<tr>${cells}</tr>`;
+}
+
+function renderCell(row, column) {
+  if (column.key === "name") {
+    const statsHref = row.statsLink ? encodeURI(row.statsLink) : null;
+    const label = escapeHtml(row.name);
+    const cellContent = statsHref
+      ? `<a class="model-name-link" href="${statsHref}" target="_blank" rel="noopener">${label}</a>`
+      : `<span>${label}</span>`;
+    return `<td>${cellContent}</td>`;
+  }
+
+  if (column.key === "benchmarkTotal") {
+    const scoreValue = formatScore(row.benchmarkTotal);
+    const targetHref = `${state.modeSlug}-vibe-eval.html#${row.anchor}`;
+    const ariaLabel = `View ${row.name} in benchmark`;
+    return `<td><a class="score-link" href="${encodeURI(targetHref)}" aria-label="${escapeHtml(ariaLabel)}">${scoreValue}</a></td>`;
+  }
+
+  return `<td>${formatValue(row[column.key], column.type)}</td>`;
 }
 
 function matchesFilters(row) {
   for (const [key, value] of state.filters.entries()) {
     if (!value) continue;
-    const rawValue = value.trim();
-    if (!rawValue) continue;
-    if (numericColumns.has(key)) {
-      if (!matchesNumericFilter(row[key], rawValue)) {
+    const trimmed = value.trim();
+    if (!trimmed) continue;
+    const column = state.columns.find((col) => col.key === key);
+    if (!column) continue;
+    if (isNumericColumn(column)) {
+      if (!matchesNumericFilter(row[column.key], trimmed)) {
         return false;
       }
-    } else if (!matchesTextFilter(row[key], rawValue, row)) {
+    } else if (!matchesTextFilter(row, key, trimmed)) {
       return false;
     }
   }
   return true;
 }
 
-function matchesTextFilter(value, query, row) {
+function matchesTextFilter(row, key, query) {
+  const value = row[key];
   const combined = `${value ?? ""} ${row.source ?? ""}`.toLowerCase();
   return combined.includes(query.toLowerCase());
 }
@@ -132,19 +323,8 @@ function matchesNumericFilter(value, query) {
   if (query.toLowerCase() === "null") {
     return value === null || value === undefined || Number.isNaN(value);
   }
-
-  const hasNativeNumber = typeof value === "number" && !Number.isNaN(value);
-  let numericValue = hasNativeNumber ? value : Number(value);
-  let isNumber = hasNativeNumber;
-
-  if (!hasNativeNumber) {
-    if (value === null || value === undefined || value === "" || value === "–") {
-      isNumber = false;
-    } else if (!Number.isNaN(numericValue)) {
-      isNumber = true;
-    }
-  }
-
+  const numericValue = typeof value === "number" && !Number.isNaN(value) ? value : Number(value);
+  const isNumber = !Number.isNaN(numericValue);
   const trimmed = query.replace(/\s+/g, "").toLowerCase();
 
   const comparatorMatch = trimmed.match(comparatorPattern);
@@ -196,10 +376,13 @@ function matchesNumericFilter(value, query) {
 }
 
 function compareRows(a, b) {
-  const { sortKey, sortDirection } = state;
-  const multiplier = sortDirection === "asc" ? 1 : -1;
-  const valA = a[sortKey];
-  const valB = b[sortKey];
+  const column = state.columns.find((col) => col.key === state.sortKey);
+  if (!column) {
+    return 0;
+  }
+  const multiplier = state.sortDirection === "asc" ? 1 : -1;
+  const valA = getSortValue(a, column);
+  const valB = getSortValue(b, column);
 
   if (valA == null && valB == null) return 0;
   if (valA == null) return 1;
@@ -213,27 +396,89 @@ function compareRows(a, b) {
   return valA > valB ? multiplier : -multiplier;
 }
 
-sortButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const key = button.dataset.key;
-    if (state.sortKey === key) {
-      state.sortDirection = state.sortDirection === "asc" ? "desc" : "asc";
-    } else {
-      state.sortKey = key;
-      state.sortDirection = key === "name" ? "asc" : "desc";
-    }
-    render();
-  });
-});
+function getSortValue(row, column) {
+  if (column.key === "name") {
+    return row.name || "";
+  }
+  if (column.key === "benchmarkTotal") {
+    return typeof row.benchmarkTotal === "number" ? row.benchmarkTotal : null;
+  }
+  return row[column.key];
+}
 
-filterInputs.forEach((input) => {
-  input.addEventListener("input", (event) => {
-    const target = event.currentTarget;
-    const key = target.dataset.key;
-    state.filters.set(key, target.value);
-    render();
+function updateSortButtons() {
+  state.sortButtons.forEach((button) => {
+    const key = button.dataset.key;
+    if (key === state.sortKey) {
+      button.dataset.direction = state.sortDirection;
+      button.setAttribute(
+        "aria-label",
+        `Sort by ${button.previousElementSibling?.textContent || key} (${state.sortDirection === "asc" ? "ascending" : "descending"})`
+      );
+    } else {
+      button.dataset.direction = "";
+      button.setAttribute("aria-label", `Sort by ${button.previousElementSibling?.textContent || key}`);
+    }
   });
-});
+}
+
+function getFilterPlaceholder(column) {
+  if (!isNumericColumn(column)) {
+    return "Filter";
+  }
+  switch (column.type) {
+    case "currency":
+      return "e.g. <=0.05";
+    case "duration":
+      return "e.g. <10";
+    case "score":
+      return "e.g. >20";
+    case "integer":
+      return "e.g. >=1100";
+    default:
+      return "e.g. 5-15";
+  }
+}
+
+function formatValue(value, type) {
+  if (value === null || value === undefined || Number.isNaN(value)) {
+    return "\u2013";
+  }
+  switch (type) {
+    case "currency":
+      return formatCurrency(value);
+    case "duration":
+      return formatLatency(value);
+    case "integer":
+      return String(Math.round(value));
+    case "score":
+      return formatScore(value);
+    case "number":
+    default:
+      if (typeof value !== "number" || Number.isNaN(value)) {
+        return "\u2013";
+      }
+      return value % 1 === 0 ? String(value) : value.toFixed(value >= 1 ? 2 : 3);
+  }
+}
+
+function isNumericColumn(column) {
+  return ["currency", "duration", "integer", "number", "score"].includes(column.type);
+}
+
+function buildModeUrl(slug) {
+  const base = "model-explorer.html";
+  return `./${base}?mode=${encodeURIComponent(slug)}`;
+}
+
+function renderHeaderLabel(column) {
+  const label = escapeHtml(column.label);
+  if (column.href) {
+    const href = encodeURI(column.href);
+    return `<a class="header-link header-label" href="${href}" target="_blank" rel="noopener">${label}</a>`;
+  }
+  return `<span class="header-label">${label}</span>`;
+}
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -243,5 +488,5 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
 }
-init();
 
+init();

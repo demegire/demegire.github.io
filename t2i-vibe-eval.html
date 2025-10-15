@@ -12,16 +12,15 @@
     />
     <link rel="stylesheet" href="assets/css/theme.css" />
   </head>
-  <body>
+  <body data-mode="t2i">
     <header class="hero">
       <div class="hero__inner">
                 <nav class="nav-tabs nav-tabs--primary" aria-label="Explore views">
           <a class="nav-tab" href="model-explorer.html">Explore Models</a>
           <a class="nav-tab nav-tab--active" href="#" aria-current="page">Explore Vibe Evals</a>
         </nav>
-        <nav class="nav-tabs nav-tabs--secondary" aria-label="Explore datasets">
+        <nav class="nav-tabs nav-tabs--secondary" id="dataset-nav" aria-label="Explore datasets">
           <a class="nav-tab nav-tab--active" href="#" aria-current="page">Text2Image</a>
-          <span class="nav-tab" aria-disabled="true">Coming soon</span>
         </nav>
         <h1 class="hero__title">Text-to-Image Vibe Eval</h1>
         <p class="hero__subtitle">
@@ -34,9 +33,7 @@
         <div class="benchmark-card__header">
           <div>
             <h2 class="section-title" id="benchmark-heading">Benchmark Overview</h2>
-            <p class="section-subtitle" id="benchmark-summary">
-              Text2Image Vibe Eval sums 0-2 vibe points per prompt across 16 prompts.
-            </p>
+            <p class="section-subtitle" id="benchmark-summary">Loading prompt summary...</p>
           </div>
           <button class="benchmark-toggle" type="button" id="prompt-toggle" aria-expanded="false" aria-controls="prompt-list">
             Expand details

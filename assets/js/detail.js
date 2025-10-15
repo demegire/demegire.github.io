@@ -1,4 +1,5 @@
-import { loadSiteData, formatScore, createAnchorId } from "./site.js";
+import { loadSiteData, formatScore, createAnchorId, resolveMode, listModes } from "./site.js";
+
 const medalMap = new Map([
   [1, "🥇"],
   [2, "🥈"],
@@ -8,70 +9,16 @@ const medalMap = new Map([
 const promptToggle = document.getElementById("prompt-toggle");
 const promptListEl = document.getElementById("prompt-list");
 const modelAccordionEl = document.getElementById("model-accordion");
+const datasetNavEl = document.getElementById("dataset-nav");
+const benchmarkSummaryEl = document.getElementById("benchmark-summary");
+const benchmarkHeadingEl = document.getElementById("benchmark-heading");
+const leaderboardHeadingEl = document.getElementById("leaderboard-heading");
+const requestedMode = document.body?.dataset?.mode || null;
 
+let modeSlug = null;
+let modePayload = null;
 let prompts = [];
 let models = [];
-const promptExplanations = new Map();
-async function loadPromptExplanations() {
-  try {
-    const response = await fetch("prompt_explanations.csv", { cache: "no-store" });
-    if (!response.ok) {
-      throw new Error(`Failed to load prompt explanations: ${response.status}`);
-    }
-    const csvText = await response.text();
-    return parsePromptExplanationCsv(csvText);
-  } catch (error) {
-    console.warn("Failed to load prompt explanations.", error);
-    return new Map();
-  }
-}
-
-function parsePromptExplanationCsv(text) {
-  const lines = text.split(/\r?\n/).filter((line) => line.trim().length > 0);
-  const map = new Map();
-  if (lines.length <= 1) {
-    return map;
-  }
-  for (let index = 1; index < lines.length; index += 1) {
-    const line = lines[index];
-    const columns = parseCsvLine(line);
-    if (!columns.length) {
-      continue;
-    }
-    const [uidValue, ...rest] = columns;
-    const uid = (uidValue || "").trim();
-    const explanation = (rest.join(",") || "").trim();
-    if (!uid) {
-      continue;
-    }
-    map.set(uid, explanation);
-  }
-  return map;
-}
-
-function parseCsvLine(line) {
-  const values = [];
-  let current = "";
-  let inQuotes = false;
-  for (let i = 0; i < line.length; i += 1) {
-    const char = line[i];
-    if (char === "\"") {
-      if (inQuotes && line[i + 1] === "\"") {
-        current += "\"";
-        i += 1;
-      } else {
-        inQuotes = !inQuotes;
-      }
-    } else if (char === "," && !inQuotes) {
-      values.push(current);
-      current = "";
-    } else {
-      current += char;
-    }
-  }
-  values.push(current);
-  return values;
-}
 
 function setPromptExpanded(expanded) {
   if (!promptToggle || !promptListEl) {
@@ -93,37 +40,94 @@ async function init() {
       setPromptExpanded(!expanded);
     });
   }
+
   try {
-    const [data, explanations] = await Promise.all([
-      loadSiteData(),
-      loadPromptExplanations(),
-    ]);
-    prompts = (data.prompts || []).slice().sort((a, b) => (a.uid || "").localeCompare(b.uid || ""));
-    promptExplanations.clear();
-    explanations.forEach((value, key) => promptExplanations.set(key, value));
-    models = (data.models || []).map(mapDetailsModel);
+    const data = await loadSiteData();
+    const resolved = resolveMode(data, requestedMode);
+    modeSlug = resolved.slug;
+    modePayload = resolved.payload;
+    if (!modeSlug || !modePayload) {
+      throw new Error("No evaluation data available.");
+    }
+    buildDatasetNav(data);
+
+    prompts = (modePayload.prompts || [])
+      .slice()
+      .sort((a, b) => (a.uid || "").localeCompare(b.uid || ""));
+    models = (modePayload.models || []).map((model) => mapDetailsModel(model, modePayload));
+    updateBenchmarkCopy();
     renderPrompts();
     renderModels();
     openHashTarget();
     window.addEventListener("hashchange", openHashTarget);
   } catch (error) {
     console.error(error);
-    modelAccordionEl.innerHTML = `<p>Failed to load evaluation data.</p>`;
+    if (datasetNavEl) {
+      datasetNavEl.innerHTML = `<span class="nav-tab" aria-disabled="true">Unavailable</span>`;
+    }
+    if (modelAccordionEl) {
+      modelAccordionEl.innerHTML = `<p>Failed to load evaluation data.</p>`;
+    }
   }
 }
 
-function mapDetailsModel(model) {
-  const vibe = model.t2I_vibe_eval ?? model.t2iVibeEval ?? {};
+function buildDatasetNav(data) {
+  if (!datasetNavEl) {
+    return;
+  }
+  const modes = listModes(data);
+  if (!modes.length) {
+    datasetNavEl.innerHTML = `<span class="nav-tab" aria-disabled="true">No datasets</span>`;
+    return;
+  }
+  datasetNavEl.innerHTML = modes
+    .map(({ slug, payload }) => {
+      const label = payload?.label || slug.toUpperCase();
+      if (slug === modeSlug) {
+        return `<a class="nav-tab nav-tab--active" href="#" aria-current="page">${escapeHtml(label)}</a>`;
+      }
+      const href = `${slug}-vibe-eval.html`;
+      return `<a class="nav-tab" href="${encodeURI(href)}">${escapeHtml(label)}</a>`;
+    })
+    .join("");
+}
+
+function mapDetailsModel(model, modeData) {
+  const benchmarkSlug = modeData?.benchmark?.slug || "vibe";
+  const benchmark = (model.benchmarks || {})[benchmarkSlug] || {};
   const anchor = createAnchorId(model.slug);
-  const images = (model.images || []).filter((img) => Boolean(img.path));
+  const generations = (model.generations || []).map((generation) => ({
+    ...generation,
+    mediaType: generation.mediaType || "unknown",
+    mediaUrl: generation.mediaUrl || generation.mediaPath || null,
+  }));
   return {
     name: model.name,
     slug: model.slug,
     anchor,
-    vibe,
-    images,
+    vibe: {
+      total: benchmark.total ?? 0,
+      average: benchmark.average ?? 0,
+      count: benchmark.count ?? 0,
+    },
+    generations,
     rank: 0,
   };
+}
+
+function updateBenchmarkCopy() {
+  if (benchmarkHeadingEl && modePayload?.title) {
+    benchmarkHeadingEl.textContent = `${modePayload.title} Benchmark Overview`;
+  }
+  if (leaderboardHeadingEl && modePayload?.title) {
+    leaderboardHeadingEl.textContent = `${modePayload.title} Leaderboard`;
+  }
+  if (benchmarkSummaryEl) {
+    const datasetLabel = modePayload?.label ? `${modePayload.label} Vibe Eval` : "This benchmark";
+    const count = prompts.length;
+    const promptWord = count === 1 ? "prompt" : "prompts";
+    benchmarkSummaryEl.textContent = `${datasetLabel} sums 0-2 vibe points per prompt across ${count} ${promptWord}.`;
+  }
 }
 
 function renderPrompts() {
@@ -148,9 +152,8 @@ function renderPrompts() {
       const title = `Prompt ${index + 1}`;
       const promptText = escapeHtml(prompt.prompt || "");
       const quotedPrompt = promptText ? `&quot;${promptText}&quot;` : "";
-      const explanation = promptExplanations.get(prompt.uid) || "";
-      const explanationHtml = explanation
-        ? `<p class="prompt-explanation">${escapeHtml(explanation)}</p>`
+      const explanationHtml = prompt.explanation
+        ? `<p class="prompt-explanation">${escapeHtml(prompt.explanation)}</p>`
         : "";
       return `
         <article class="prompt-card">
@@ -185,9 +188,10 @@ function renderModels() {
 function renderModelPanel(model) {
   const total = formatScore(model.vibe.total || 0);
   const badge = medalMap.get(model.rank) || `#${model.rank}`;
-  const grid = model.images.length
+  const visibleGenerations = model.generations.filter((generation) => generation.mediaUrl);
+  const grid = visibleGenerations.length
     ? `<div class="model-grid">
-        ${model.images.map((image) => renderGenerationCard(image, model)).join("\n")}
+        ${visibleGenerations.map((generation) => renderGenerationCard(generation, model)).join("\n")}
       </div>`
     : `<p>No generations captured for this model yet.</p>`;
   return `
@@ -206,18 +210,44 @@ function renderModelPanel(model) {
   `;
 }
 
-function renderGenerationCard(image, model) {
-  const promptTitle = image.prompt ? escapeHtml(image.prompt) : "";
+function renderGenerationCard(generation, model) {
+  const promptTitle = generation.prompt ? escapeHtml(generation.prompt) : "";
   const titleAttr = promptTitle ? ` title="${promptTitle}"` : "";
+  const mediaHtml = renderGenerationMedia(generation, model);
   return `
-    <figure class="generation-card" tabindex="0" data-model="${escapeHtml(model.slug)}" data-uid="${escapeHtml(image.uid)}"${titleAttr}>
-      <img src="${encodeURI(image.path)}" alt="${escapeHtml(model.name)} prompt ${escapeHtml(image.uid)}" loading="lazy" />
+    <figure class="generation-card" tabindex="0" data-model="${escapeHtml(model.slug)}" data-uid="${escapeHtml(
+      generation.uid
+    )}"${titleAttr}>
+      ${mediaHtml}
       <figcaption class="generation-overlay">
-        <span class="generation-score">Score: ${formatScore(image.score || 0)}</span>
-        <p class="generation-comment">${escapeHtml(image.comment || "No comment provided.")}</p>
+        <span class="generation-score">Score: ${formatScore(generation.score || 0)}</span>
+        <p class="generation-comment">${escapeHtml(generation.comment || "No comment provided.")}</p>
       </figcaption>
     </figure>
   `;
+}
+
+function renderGenerationMedia(generation, model) {
+  const source = generation.mediaUrl;
+  if (!source) {
+    return `
+      <div class="generation-placeholder">
+        <span>${escapeHtml(model.name)}</span>
+        <span>No media available</span>
+      </div>
+    `;
+  }
+  const encoded = encodeURI(source);
+  if (generation.mediaType === "video") {
+    return `
+      <video class="generation-media" src="${encoded}" preload="metadata" muted playsinline loop autoplay>
+        Sorry, your browser can't play this video.
+      </video>
+    `;
+  }
+  return `<img class="generation-media" src="${encoded}" alt="${escapeHtml(model.name)} prompt ${escapeHtml(
+    generation.uid
+  )}" loading="lazy" />`;
 }
 
 function attachCardInteractions() {
@@ -254,11 +284,12 @@ function openHashTarget() {
 }
 
 function escapeHtml(value) {
-  return String(value)
+  return String(value ?? "")
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
 }
+
 init();

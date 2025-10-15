@@ -1,0 +1,10 @@
+Name, Cost Per Second of Video (720p) (USD), Cost Per Second of Video (1080p) (USD),p90 Latency (s), Artificial Analysis ELO, LMArena ELO, Link
+fal-ai/sora-2/text-to-video/pro,0.3,0.5,825,-,1346,https://fal.ai/models/fal-ai/sora-2/text-to-video/pro/
+fal-ai/sora-2/text-to-video,0.1,-,394,-,1323,https://fal.ai/models/fal-ai/sora-2/text-to-video
+fal-ai/wan-25-preview/text-to-video,0.1,0.15,173,1190,-,https://fal.ai/models/fal-ai/wan-25-preview/text-to-video
+fal-ai/kling-video/v2.5-turbo/pro/text-to-video,-,0.07,171,1241,1223,https://fal.ai/models/fal-ai/kling-video/v2.5-turbo/pro/text-to-video
+fal-ai/veo3/fast,0.1,-,175,1186,1264,https://fal.ai/models/fal-ai/veo3/fast
+fal-ai/bytedance/seedance/v1/lite/text-to-video,0.036,0.054,275,1091,1098,https://fal.ai/models/fal-ai/bytedance/seedance/v1/lite/text-to-video
+fal-ai/veo3,-,0.2,363,1229,1255,https://fal.ai/models/fal-ai/veo3
+fal-ai/luma-dream-machine/ray-2-flash,0.04,-,155,953,1064,https://fal.ai/models/fal-ai/luma-dream-machine/ray-2-flash
+local-wan2.2,-,0.41,231,-,-,https://civitai.com/models/1818841/wan-22-workflow-t2v-i2v-t2i-kijai-wrapper
